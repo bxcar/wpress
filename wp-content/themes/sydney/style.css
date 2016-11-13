@@ -3606,8 +3606,48 @@ input[type="color"]:focus {
     }
 }
 
+@media only screen and (min-width: 1100px) {
+    .header-logo {
+        width: 20% !important;
+    }
+
+    .header-menu {
+        width: 66% !important;
+    }
+
+    .header-number {
+        width: 14% !important;
+    }
+
+    .header-number p {
+        text-align: left;
+        color: #ffffff;
+        font-size: 21px;
+        font-family: 'Open Sans', sans-serif
+    }
+}
+
 /* Smaller than standard 1200 */
 @media only screen and (max-width: 1199px) {
+    .header-logo {
+        width: 20% !important;
+    }
+
+    .header-menu {
+        width: 66% !important;
+    }
+
+    .header-number {
+        width: 14% !important;
+    }
+
+    .header-number p {
+        text-align: left;
+        color: #ffffff;
+        font-size: 16px !important;
+        font-family: 'Open Sans', sans-serif
+    }
+
     .sidebar-column {
         width: 430px;
         margin-left: 100px;
@@ -3656,6 +3696,16 @@ input[type="color"]:focus {
 
 /* Smaller than standard 980 */
 @media only screen and (max-width: 991px) {
+    .btn-menu {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .header-number p {
+        margin-top: 10px;
+    }
     .content-area .hentry {
         width: 48%;
         /*height: 100%;*/
@@ -3681,6 +3731,10 @@ input[type="color"]:focus {
 
     .site-header.fixed {
         position: static !important;
+    }
+    
+    .site-header {
+        background: #08b4da !important;
     }
 
     .parallax {
@@ -3754,6 +3808,27 @@ input[type="color"]:focus {
 }
 
 @media only screen and (max-width: 1024px) {
+    .site-header {
+        background: #08b4da !important;
+    }
+    .btn-menu {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .header-number p {
+        margin-top: 10px;
+    }
+   /* .header-number p {
+        !*font-size: 16px !important;*!
+        position: absolute;
+        width: 100px;
+        top: 0px;
+        left: 80px;
+        !*margin-right: -14px !important;*!
+    }*/
     .slides-container .slide-item,
     .panel-row-style {
         background-attachment: scroll;
@@ -3842,6 +3917,20 @@ input[type="color"]:focus {
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+    .header-logo {
+        width: 35% !important;
+    }
+    .header-menu {
+        width: 40% !important;
+    }
+
+    .header-number {
+        width: 22% !important;
+    }
+    .header-number p {
+        /*font-size: 16px !important;*/
+        margin-left: -34px !important;
+    }
     .sidebar-column {
         width: 330px;
         margin-left: 85px;
@@ -4038,6 +4127,39 @@ input[type="color"]:focus {
 
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
+    .btn-menu {
+        margin-left: 50px !important;
+    }
+    .header-logo {
+        width: 35% !important;
+    }
+    .header-number p {
+        margin-top: 0px;
+    }
+
+    .header-menu {
+        width: 45% !important;
+    }
+    #mainnav-mobi ul > li > a {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+
+
+    .header-number {
+        width: 18% !important;
+        margin-top: 15px !important;
+    }
+
+    .header-number p {
+        text-align: left;
+        color: #ffffff;
+        font-size: 21px;
+        font-family: 'Open Sans', sans-serif
+    }
+    .header-number p {
+        font-size: 14px !important;
+    }
     .Dunai, .Desyatnik, .Chorna, .Korolchuk {
         background-size: 85% !important;
         /*background-position: bottom left !important;*/
