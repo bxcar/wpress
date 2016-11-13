@@ -3608,6 +3608,15 @@ input[type="color"]:focus {
 
 /* Smaller than standard 1200 */
 @media only screen and (max-width: 1199px) {
+    .sidebar-column {
+        width: 430px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .prev .prev-item {
+        margin-bottom: 50px;
+        width: 45% !important;
+    }
     .form-descr {
         background: url('/wpress/wp-content/themes/sydney/img/arrow-block(add).png') no-repeat right center !important;
         /*background-size: cover;*/
@@ -3833,6 +3842,17 @@ input[type="color"]:focus {
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
     .sidebar-column {
+        width: 330px;
+        margin-left: 85px;
+    }
+    .prev .prev-item {
+        margin-bottom: 50px;
+        width: 100% !important;
+    }
+    .prev .prev-item:last-child {
+        margin-bottom: 0;
+    }
+    .sidebar-column {
         margin-top: -70px !important;
     }
     #text-2 {
@@ -4015,8 +4035,59 @@ input[type="color"]:focus {
 
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
-    .tour-header, .privilege-title {
-        font-size: 30px !important;
+    .Dunai, .Desyatnik, .Chorna, .Korolchuk {
+        background-size: 80% !important;
+    }
+    .team .team-item .team-info {
+        margin-left: 130px !important;
+    }
+    .team .team-item .team-info a {
+        font-size: 16px !important;
+        margin-top: 0 !important;
+    }
+    .team .team-item .team-img {
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .btn1 {
+        padding: 15px 15px 10px !important;
+        font-size: 14px !important;
+    }
+    .sidebar-column {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tour-header, .privilege-title{
+        font-size: 25px !important;
+        line-height: 32px !important;
+        margin-bottom: 20px !important;
+    }
+    .team h2, .header-bottom-form  {
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+    .team .team-item {
+        width: 100% !important; ;
+    }
+    .prices {
+        padding-top: 20px !important;
+    }
+    .prices h3 {
+        font-size: 20px !important;
+    }
+    .prices .dates {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+    .team .telephone2 {
+        font-size: 35px !important;
+    }
+
+    .team .team-text {
+        font-size: 16px !important;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .privilege-title {
@@ -4838,13 +4909,14 @@ input[type="color"]:focus {
     display: inline-block;
     vertical-align: top;
     width: 290px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 14px;
+    padding-left: 12px;
 }
 
 .prev .prev-item p.title {
     color: #0093d0;
     font-size: 20px;
+    line-height: 28px;
     font-family: "Open Sans", sans-serif;
     margin: 30px 0;
     text-transform: uppercase;
@@ -4853,6 +4925,7 @@ input[type="color"]:focus {
     font-size: 16px;
     color: #333333;
     line-height: 25px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .prev h2 {
@@ -4863,7 +4936,7 @@ input[type="color"]:focus {
     margin-top: 0px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     float: center;
     color: #0093d0;
 }
