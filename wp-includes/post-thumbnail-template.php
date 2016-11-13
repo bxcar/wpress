@@ -58,7 +58,7 @@ function get_post_thumbnail_id( $post = null ) {
  *                           Default 'post-thumbnail'.
  * @param string|array $attr Optional. Query string or array of attributes. Default empty.
  */
-function the_post_thumbnail( $size = 'post-thumbnail', $attr = '' ) {
+function the_post_thumbnail( $size = 'post-thumbnail', $attr = '' ) { 
 	echo get_the_post_thumbnail( null, $size, $attr );
 }
 

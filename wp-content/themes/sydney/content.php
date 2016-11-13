@@ -8,8 +8,8 @@
 
     <?php if (has_post_thumbnail() && (get_theme_mod('index_feat_image') != 1)) : ?>
         <div class="entry-thumb">
-            <a href="<?php the_permalink(); ?>"
-               title="<?php the_title(); ?>"><?php the_post_thumbnail('sydney-large-thumb'); ?></a>
+            <a class="custom-size" href="<?php the_permalink(); ?>"
+               title="<?php the_title(); ?>"><?php the_post_thumbnail('sydney-large-thumb'); //, array('class' => 'miniature') ?></a>
         </div>
     <?php endif; ?>
 

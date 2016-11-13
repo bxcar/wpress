@@ -3658,7 +3658,8 @@ input[type="color"]:focus {
 @media only screen and (max-width: 991px) {
     .content-area .hentry {
         width: 48%;
-        height: 100%;
+        /*height: 100%;*/
+        height: 500px;
     }
 
     .entry-footer {
@@ -3890,7 +3891,9 @@ input[type="color"]:focus {
     .content-area .hentry {
         width: 48%;
         /*height: 320px;*/
-        height: 100%;
+        /*height: 100%;*/
+        height: 340px;
+
     }
 
     .entry-footer {
@@ -4036,14 +4039,22 @@ input[type="color"]:focus {
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
     .Dunai, .Desyatnik, .Chorna, .Korolchuk {
-        background-size: 80% !important;
+        background-size: 85% !important;
+        /*background-position: bottom left !important;*/
+    }
+    .Desyatnik, .Korolchuk {
+        background-position: bottom left !important;
     }
     .team .team-item .team-info {
-        margin-left: 130px !important;
+        margin-left: 120px !important;
     }
     .team .team-item .team-info a {
-        font-size: 16px !important;
+        font-size: 15px !important;
         margin-top: 0 !important;
+    }
+    .team .team-item .team-info p {
+        padding-left: 20px !important;
+        background-size: 17px 15px !important;
     }
     .team .team-item .team-img {
         width: 130px !important;
@@ -4068,7 +4079,8 @@ input[type="color"]:focus {
         line-height: 30px !important;
     }
     .team .team-item {
-        width: 100% !important; ;
+        width: 90% !important;
+        margin-left: 0 !important;
     }
     .prices {
         padding-top: 20px !important;
@@ -4098,7 +4110,17 @@ input[type="color"]:focus {
     .content-area .hentry {
         width: 48%;
         /*height: 320px;*/
-        height: 100%;
+        /*height: 100%;*/
+        height: 230px;
+    }
+
+    .content-area .entry-thumb img {
+        height: 90%;
+    }
+
+    .content-area .entry-thumb {
+        margin-bottom: 0 !important;
+        height: 55% !important;
     }
 
     .entry-footer {
@@ -4116,7 +4138,7 @@ input[type="color"]:focus {
     }
 
     .tprice b {
-        font-size: 13px !important;
+        font-size: 11px !important;
     }
 
     .tprice div {
@@ -4126,6 +4148,7 @@ input[type="color"]:focus {
 
     .hentry .title-post {
         padding-bottom: 5px !important;
+        margin-top: -5px;
     }
 
     .hentry .title-post a {
@@ -4136,6 +4159,7 @@ input[type="color"]:focus {
 
     .entry-post p {
         font-size: 14px !important;
+        height: 45px;
     }
     .roll-project.fullwidth .project-item {
         width: 100%;
@@ -4165,6 +4189,9 @@ input[type="color"]:focus {
 }
 
 @media only screen and (max-width: 320px) {
+    /*.form-descr {
+        width: 300px !important;
+    }*/
     .text-slider {
         margin-bottom: 0;
     }
@@ -4797,7 +4824,7 @@ input[type="color"]:focus {
 
 .f-text3 {
     /*width: 190px;*/
-    width: 29%;
+    width: 28%;
     margin-right: 0;
     text-align: left;
 }
@@ -4940,3 +4967,13 @@ input[type="color"]:focus {
     float: center;
     color: #0093d0;
 }
+
+/*.custom-size img {
+    width: 100% !important;
+    height: 210px !important;
+}*/
+
+/*
+.miniature {
+    height: 210px !important;
+}*/

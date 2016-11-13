@@ -54,6 +54,7 @@ function sydney_setup() {
 	add_image_size('sydney-small-thumb', 230);
 	add_image_size('sydney-service-thumb', 350);
 	add_image_size('sydney-mas-thumb', 480);
+	add_image_size('custom', 275, 210);
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
