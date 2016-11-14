@@ -227,6 +227,7 @@ function sydney_excerpt_length( $length ) {
 
 }
 add_filter( 'excerpt_length', 'sydney_excerpt_length', 999 );
+//add_filter( 'the_content_more_link', '__return_empty_string');
 
 /**
  * Blog layout

@@ -166,8 +166,9 @@ Navigation
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
-    float: left;
-    width: 50%;
+    /*float: left;
+    width: 50%;*/
+    display: none;
 }
 
 .comment-navigation .nav-next,
@@ -2092,9 +2093,9 @@ Footer
 Bottom
 --------------------------------------------------------------*/
 .site-footer {
-    background-color: #1c1c1c;
-    line-height: 35px;
-    padding: 15px 0;
+    background-color: #aef !important;
+    /*line-height: 35px;*/
+    padding: 5px 10px;
 }
 
 .site-footer,
@@ -5033,7 +5034,8 @@ input[type="color"]:focus {
 }
 
 .sidebar-column {
-    height: 560px;
+    /*height: 560px;*/
+    height: 420px;
     min-width: 300px;
     float: none;
     display: inline-block;

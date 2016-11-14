@@ -8,13 +8,13 @@
 
     <?php if (has_post_thumbnail() && (get_theme_mod('index_feat_image') != 1)) : ?>
         <div class="entry-thumb">
-            <a class="custom-size" href="<?php the_permalink(); ?>"
-               title="<?php the_title(); ?>"><?php the_post_thumbnail('sydney-large-thumb'); //, array('class' => 'miniature') ?></a>
+            <span class="custom-size" href="<?php the_permalink(); ?>"
+               title="<?php the_title(); ?>"><?php the_post_thumbnail('sydney-large-thumb'); //, array('class' => 'miniature') ?></span>
         </div>
     <?php endif; ?>
 
     <header class="entry-header">
-        <?php the_title(sprintf('<h2 class="title-post"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>'); ?>
+        <?php the_title(sprintf('<h2 class="title-post"><span style="color: #0088e7;" href="%s" rel="bookmark">', esc_url(get_permalink())), '</span></h2>'); ?>
 
         <!--		--><?php //if ( 'post' == get_post_type() && get_theme_mod('hide_meta_index') != 1 ) : ?>
         <!--		<div class="meta-post">-->
