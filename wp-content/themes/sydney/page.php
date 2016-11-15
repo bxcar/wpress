@@ -9,7 +9,7 @@
  *
  * @package Sydney
  */
-
+//include "../../../wp-includes/general-template.php";
 get_header_for_tour_selection(); ?>
 
 	<div id="primary" class="content-area col-md-9">

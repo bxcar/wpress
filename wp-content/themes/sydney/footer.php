@@ -159,12 +159,19 @@
             </div>
         </div>
 
-        <p class="telephone2"><span>Есть вопрос по отдыху? С&nbsp;удовольствием поможем:</span>
-            +38(068) 528 2227 </p>
+        <!--<p class="telephone2"><span>Есть вопрос по отдыху? С&nbsp;удовольствием поможем:</span>
+            +38(068) 528 2227 </p>-->
     </div>
 </section>
+
+</div>
+</div>
 <section class="prices">
+    <img id="palmright" src="/wpress/wp-content/themes/sydney/img/palm.png">
+    <img id="palmleft" src="/wpress/wp-content/themes/sydney/img/palmleft.png">
     <div class="grid">
+        <p class="telephone2"><span>Есть вопрос по отдыху? С&nbsp;удовольствием поможем:</span>
+            +38(068) 528 2227 </p>
         <h3> Время обработки заявок: </h3>
         <p class="dates">Пн-Пт: 10.00 - 19.00<br/>
             Сб: 10.00 - 17.00<br/>
@@ -175,7 +182,7 @@
 </section>
 <h2 class="header-bottom-form">Мы гарантируем <span>ЛУЧШИЕ&nbsp;цены</span> на туры <br/>
     в Луцке</h2>
-<div class="top-form-container">
+<div class="top-form-container bottom-form-without-container">
     <div class="form-descr box">
         <h3>Получите <br/>
             1000&nbsp;грн. на тур*</h3>
@@ -192,6 +199,7 @@
         <aside id="text-2" class="widget widget_text"><h3 class="widget-title"
                                                           style="text-align: center; width: 93%;">
                 Заполните форму сейчас</h3>
+            <p class="under-header-in-form">и получите 5 вариантов отдыха с подробным расчётом цен</p>
             <div class="textwidget">
                 <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                     <div class="screen-reader-response"></div>
@@ -213,7 +221,7 @@
                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"></span>
-<!--                        </label></p>-->
+                        <!--                        </label></p>-->
                         <!--                                        <p><label> Контактный телефон (обязательно)<br>-->
                                             <span class="wpcf7-form-control-wrap tel-564"><input type="tel"
                                                                                                  style="width: 100%;"
@@ -223,7 +231,7 @@
                                                                                                  size="40"
                                                                                                  class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                                                                                                  aria-invalid="false"></span>
-<!--                        </label></p>-->
+                        <!--                        </label></p>-->
                         <!--                                        <p><label> Пожелания к туру<br>-->
                                             <span class="wpcf7-form-control-wrap your-message"><textarea
                                                     name="your-message"
@@ -245,8 +253,6 @@
             </div>
         </aside>
     </div>
-</div>
-</div>
 </div>
 </div><!-- #content -->
 

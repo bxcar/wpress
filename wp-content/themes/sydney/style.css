@@ -523,7 +523,8 @@ h2 {
 }
 
 h3 {
-    font: 32px/1.1 "Raleway", sans-serif;
+    /*font: 32px/1.1 "Raleway", sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 h4 {
@@ -1291,9 +1292,10 @@ Layout
     text-align: center;
     color: #171717;
     font-size: 16px;
-    font-family: 'open_sanslight', sans-serif;
+    /*font-family: 'open_sanslight', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    font-weight: bolder;
+    /*font-weight: bolder;*/
 }
 
 .entry-post img {
@@ -1372,7 +1374,7 @@ Hero section
     display: inline-block;
     font-size: 57px;
     line-height: 67px;
-    font-weight: 700;
+    font-weight: 300;
     padding-bottom: 10px;
 }
 
@@ -1449,6 +1451,7 @@ Hero section
 
 .header-slider {
     overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -1564,7 +1567,7 @@ Blog
 
 .hentry .title-post {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 300;
     line-height: normal;
     padding-bottom: 10px;
     margin: 0;
@@ -1574,7 +1577,8 @@ Blog
 .hentry .title-post a {
     color: #0088e7;
     font-size: 23px;
-    font-family: 'open_sanslight', sans-serif;
+    /*font-family: 'open_sanslight', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     /*height: 32px;*/
     /*line-height: 26px;*/
@@ -1734,6 +1738,7 @@ Widgets
     padding-bottom: 24px;
     margin: 0;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .widget ul {
@@ -2024,6 +2029,7 @@ Footer
     color: #c5c5c5;
     line-height: normal;
     margin: 5px 0 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* widget info */
@@ -2093,14 +2099,16 @@ Footer
 Bottom
 --------------------------------------------------------------*/
 .site-footer {
-    background-color: #aef !important;
+    background-color: #0093d0 !important;
     /*line-height: 35px;*/
+    font-family: 'Open Sans', sans-serif;
     padding: 5px 10px;
+    color: #fff !important;
 }
 
-.site-footer,
 .site-footer a {
-    color: #666;
+    color: #fff !important;
+    text-decoration: underline;
 }
 
 .site-footer .socials {
@@ -2277,6 +2285,12 @@ Panels
     height: 1px;
     margin-left: -25px;
     background-color: #d65050;
+}
+
+.widget-title {
+    font-family: 'Open Sans', sans-serif;
+    color: #FF5516;
+    margin-bottom: 5px;
 }
 
 .panel-grid {
@@ -2531,10 +2545,11 @@ Panels
 .roll-button {
     position: relative;
     display: inline-block;
-    font-family: "Raleway", sans-serif;
+    /*font-family: "Raleway", sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 24px;
-    font-weight: 700;
+    font-weight: 300;
     padding: 12px 35px;
     color: #fff;
     text-transform: uppercase;
@@ -3393,9 +3408,14 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    background-color: #d65050;
-    border: 1px solid #d65050;
+    /*background-color: #d65050;*/
+    /*border: 1px solid #d65050;*/
+    background-color: #0088e7;
+    border: 1px solid #0088e7;
     width: 100%;
+   /* font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;*/
 }
 
 button:hover,
@@ -3403,7 +3423,8 @@ input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
     background-color: transparent;
-    color: #d65050;
+    /*color: #d65050;*/
+    color: #0088e7;
 }
 
 textarea:focus,
@@ -3659,7 +3680,7 @@ input[type="color"]:focus {
         width: 45% !important;
     }
     .form-descr {
-        background: url('/wpress/wp-content/themes/sydney/img/arrow-block(add).png') no-repeat right center !important;
+        background: url('/wpress/wp-content/themes/sydney/img/arrow-block(add)_coral.png') no-repeat right center !important;
         /*background-size: cover;*/
         background-size: 100% !important;
         padding-bottom: 180px !important;
@@ -3697,6 +3718,18 @@ input[type="color"]:focus {
 
 /* Smaller than standard 980 */
 @media only screen and (max-width: 991px) {
+    .prefooter {
+        display: inline !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .prices #palmright {
+        opacity: 0.2;
+    }
+
+    .prices #palmleft {
+        opacity: 0.2;
+    }
     .btn-menu {
         float: none;
         margin-left: auto;
@@ -3918,6 +3951,30 @@ input[type="color"]:focus {
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+    input, textarea {
+        width: 85% !important;
+        margin-right: auto !important;
+        margin-left: 6% !important;
+    }
+    .under-header-in-form {
+        text-align: center;
+    }
+    .prices #palmright {
+        right: -100px !important;
+    }
+
+    .prices #palmleft {
+        left: -100px !important;
+    }
+    .telephone2 {
+        margin-bottom: 30px !important;
+    }
+    .telephone2 span {
+        margin-bottom: 10px;
+    }
+    .prices {
+        padding-bottom: 10px !important;
+    }
     .header-logo {
         width: 35% !important;
     }
@@ -3935,6 +3992,7 @@ input[type="color"]:focus {
     .sidebar-column {
         width: 330px;
         margin-left: 85px;
+        padding-left: 0 !important;
     }
     .prev .prev-item {
         margin-bottom: 50px;
@@ -4215,7 +4273,7 @@ input[type="color"]:focus {
         font-size: 16px !important;
         line-height: 22px !important;
     }
-    .team .telephone2 {
+    .telephone2 {
         font-size: 35px !important;
     }
 
@@ -4336,7 +4394,8 @@ input[type="color"]:focus {
 }
 
 .tprice b {
-    font-family: 'open_sansextrabold', sans-serif;
+    /*font-family: 'open_sansextrabold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     font-size: 21px;
 }
 
@@ -4363,7 +4422,7 @@ input[type="color"]:focus {
     font-size: 16px;
     font-family: 'open_sansemibold', sans-serif;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 300;
     width: 45%;
     float: left;
     height: 33px;
@@ -4535,7 +4594,8 @@ input[type="color"]:focus {
     display: inline-block;
     color: #ffffff;
     font-size: 18px;
-    font-family: 'open_sansbold', sans-serif;
+    /*font-family: 'open_sansbold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     padding: 25px 25px 21px;
     /*background: url("../img/btn-active.png") repeat-x left center;*/
@@ -4628,9 +4688,10 @@ input[type="color"]:focus {
 }
 
 .team h2 {
-    color: #FF5516;
-    font-size: 44px;
-    font-family: 'open_sansbold', sans-serif;
+    color: #ff7300;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
     line-height: 52px;
     margin-top: 5px;
     text-transform: uppercase;
@@ -4661,7 +4722,8 @@ input[type="color"]:focus {
 .team .team-item .team-info h3 {
     color: #363636;
     font-size: 18px;
-    font-family: 'open_sansbold', sans-serif;
+    /*font-family: 'open_sansbold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
@@ -4672,7 +4734,8 @@ input[type="color"]:focus {
     margin-bottom: 8px;
     color: #363636;
     font-size: 16px;
-    font-family: 'open_sansregular', sans-serif;
+    /*font-family: 'open_sansregular', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 .team .team-item .team-info p.team-tel {
@@ -4696,23 +4759,30 @@ input[type="color"]:focus {
     margin-top: 10px;
     color: #0088e7;
     font-size: 18px;
-    font-family: 'open_sanssemibold', sans-serif;
+    /*font-family: 'open_sanssemibold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
 }
 
-.team .telephone2 {
+ .telephone2 {
     padding-top: 10px;
-    color: #363636;
+    /*color: #363636;*/
+     color: #fff;
     font-size: 55px;
-    font-family: 'open_sansextrabold', sans-serif;
+    /*font-family: 'open_sansextrabold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     line-height: 0.8em;
+     margin-bottom: 50px;
 }
 
-.team .telephone2 span {
+ .telephone2 span {
     display: block;
-    color: #363636;
+    /*color: #363636;*/
+     color: #fff;
     font-size: 18px;
-    font-family: 'open_sansbold', sans-serif;
+    /*font-family: 'open_sansbold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .Dunai {
@@ -4747,7 +4817,8 @@ input[type="color"]:focus {
 .privilege-title {
     text-align: center;
     margin-bottom: 50px;
-    font-family: 'open_sansbold', sans-serif;
+    /*font-family: 'open_sansbold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #FF5516;
@@ -4761,7 +4832,8 @@ input[type="color"]:focus {
     vertical-align: top;
     font-size: 14px;
     line-height: 24px;
-    font-family: 'open_sansregular', sans-serif;
+    /*font-family: 'open_sansregular', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     color: #7a7a7a;
     text-align: left;
 }
@@ -4769,7 +4841,8 @@ input[type="color"]:focus {
 .header-in-privilege-item {
     text-transform: uppercase;
     font-size: 20px;
-    font-family: 'open_sansbold', sans-serif;
+    /*font-family: 'open_sansbold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #0093d0;
     display: block;
@@ -4824,36 +4897,43 @@ input[type="color"]:focus {
 
 .prices {
     text-align: center;
-    padding: 70px 0 40px;
+    padding: 0px 0 40px;
+    background: #08b4da;
+    position: relative;
 }
 
 .prices h2 {
     color: #FF5516;
     font-size: 48px;
-    font-family: 'open_sansextrabold', sans-serif;
+    /*font-family: 'open_sansextrabold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 .prices h3 {
-    color: #FF5516;
+    color: #ff7300;
     font-size: 28px;
-    font-family: 'open_sansextrabold', sans-serif;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 .prices .dates {
     margin-bottom: 24px;
-    color: #363636;
+    /*color: #363636;*/
+    color: #fff;
     font-size: 18px;
-    font-family: 'open_sanssemibold', sans-serif;
+    /*font-family: 'open_sanssemibold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 .prices .prices-info {
     color: #363636;
     font-size: 14px;
-    font-family: 'open_sanslight', sans-serif;
+    /*font-family: 'open_sanslight', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 15px;
 }
 
@@ -4874,19 +4954,22 @@ input[type="color"]:focus {
 .prices tr td {
     color: #000000;
     font-size: 18px;
-    font-family: 'open_sanslight', sans-serif;
+    /*font-family: 'open_sanslight', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     padding: 12px;
     text-align: left;
 }
 
 .prices tr td b {
-    font-family: 'open_sansbold', sans-serif;
+    /*font-family: 'open_sansbold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 .prices tr td a {
     color: #0088e7;
     font-size: 14px;
-    font-family: 'open_sansbold', sans-serif;
+    /*font-family: 'open_sansbold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
 }
 
@@ -4925,12 +5008,13 @@ input[type="color"]:focus {
     text-align: center;
     font-size: 36px;
     line-height: 42px;
-    font-family: 'open_sansextrabold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     color: #FF5516;
 }
 
 .header-bottom-form span {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 .f-text1 {
@@ -4955,22 +5039,22 @@ input[type="color"]:focus {
 .foot {
     text-align: left;
     width: 100%;
-    background: #fef;
+    /*background: #fef;*/
 }
 
 .tour-header {
     text-align: center;
     margin-bottom: 50px;
-    font-family: 'open_sansbold', sans-serif;
-    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
-    color: #FF5516;
-    font-size: 44px;
+    color: #ff7300;
+    font-size: 40px;
 }
 
 .form-descr {
-    background: url("/wpress/wp-content/themes/sydney/img/arrow-block.png") no-repeat right center;
-    background-size: cover;
+    background: url("/wpress/wp-content/themes/sydney/img/arrow_block_coral.png") no-repeat right center;
+    /*background-size: cover;*/
     width: 485px;
     padding: 35px 80px 35px 35px;
     margin-top: 35px;
@@ -4980,23 +5064,28 @@ input[type="color"]:focus {
 
 .form-descr h3 {
     margin-bottom: 22px;
-    color: #363636;
+    /*color: #363636;*/
+    color: #fff;
     font-size: 36px;
-    font-family: 'open_sansextrabold', sans-serif;
+    /*font-family: 'open_sansextrabold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     line-height: 40px;
     /*margin-bottom: 12px;*/
     text-transform: uppercase;
 }
 
 .form-descr p {
-    color: #363636;
+    /*color: #363636;*/
+    color: #fff;
     font-size: 16px;
-    font-family: 'open_sanssemibold', sans-serif;
+    /*font-family: 'open_sanssemibold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     line-height: 22px;
 }
 
 .form-descr p span {
-    color: #e90000;
+    /*color: #e90000;*/
+    color: #fff;
 }
 
 .form-descr p + p {
@@ -5016,7 +5105,8 @@ input[type="color"]:focus {
     text-align: center;
     color: #9d9d9d;
     font-size: 16px;
-    font-family: 'open_sanssemibold', sans-serif;
+    /*font-family: 'open_sanssemibold', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
     line-height: 24px;
 }
 
@@ -5029,19 +5119,28 @@ input[type="color"]:focus {
 }
 
 .prefooter {
-    color: #9d9d9d;
+    /*color: #9d9d9d;*/
+    color: #fff;
     /*font-family: 'open_sanssemibold', sans-serif;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .sidebar-column {
     /*height: 560px;*/
-    height: 420px;
+    height: 470px;
     min-width: 300px;
     float: none;
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    background: #efe;
+    /*background: #efe;*/
+    border: 4px solid #33a0ec;
+    border-radius: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .wpcf7-text {
@@ -5092,6 +5191,43 @@ input[type="color"]:focus {
     color: #0093d0;
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#fon {
+    display: none;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+#load {
+    background: url('/wpress/wp-content/themes/sydney/img/ajax-loader.gif') no-repeat;
+    position: fixed;
+    left: 44%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    display: none;
+}
+
+.prices img {
+    width: auto !important;
+    position: absolute;
+}
+
+.prices #palmright {
+    right: 0;
+}
+
+.prices #palmleft {
+    left: 0;
+}
 /*.custom-size img {
     width: 100% !important;
     height: 210px !important;
@@ -5101,3 +5237,15 @@ input[type="color"]:focus {
 .miniature {
     height: 210px !important;
 }*/
+
+.bottom-form-without-container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.under-header-in-form {
+    font-size: 16px;
+}

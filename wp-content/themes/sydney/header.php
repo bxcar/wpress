@@ -93,6 +93,7 @@
                         <aside id="text-2" class="widget widget_text"><h3 class="widget-title"
                                                                           style="text-align: center; width: 93%;">
                                 Заполните форму сейчас</h3>
+                            <p class="under-header-in-form">и получите 5 вариантов отдыха с подробным расчётом цен</p>
                             <div class="textwidget">
                                 <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                                     <div class="screen-reader-response"></div>

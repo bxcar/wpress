@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    /*$(".filters select").click(function () {
+        var id = $(this).attr(id);
+        alert(id);
+    });*/
 
     /* init fancybox */
 
