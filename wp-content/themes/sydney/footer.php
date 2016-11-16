@@ -11,7 +11,7 @@
     открытие визы. Стоимость указана
     на одного при двухместном размещении. Цены реальные, но места кончаются</p>
 <p class="get-offers-button"><a class="btn1 modal-link product-link" href="#tour"
-      data-order="Получить все предложения">Получить все предложения</a></p>
+                                data-order="Получить все предложения">Получить все предложения</a></p>
 <!--<section class="request">
     <div class="grid add-padding">
         <h2><a class="modal-link product-link" href="#tour" data-order="Запрос">Оставьте запрос</a></h2>
@@ -59,7 +59,8 @@
         <img src="/wpress/wp-content/themes/sydney/img/prev/v1.png" width="61" height="64">
         <p class="title">БІЛЬШЕ 20 РОКІВ<br>
             НА РИНКУ</p>
-        <p class="text">Міжнародний туроператор Coral Travel накопичив безцінний досвід роботи у сфері виїзного та внутрішнього туризму</p>
+        <p class="text">Міжнародний туроператор Coral Travel накопичив безцінний досвід роботи у сфері виїзного та
+            внутрішнього туризму</p>
     </div>
 
     <div class="prev-item" id="prev_item_2">
@@ -73,7 +74,8 @@
         <img src="/wpress/wp-content/themes/sydney/img/prev/v3.png" width="61" height="64">
         <p class="title">233 АГЕНТСТВА<br>
             76 МІСТ УКРАЇНИ</p>
-        <p class="text">Для поліпшення якості обслуговування клієнтів компанія розвиває власні мережі роздрібних продажів</p>
+        <p class="text">Для поліпшення якості обслуговування клієнтів компанія розвиває власні мережі роздрібних
+            продажів</p>
     </div>
 
     <div class="prev-item" id="prev_item_4">
@@ -180,39 +182,42 @@
         </p>
     </div>
 </section>
-<h2 class="header-bottom-form">Мы гарантируем <span>ЛУЧШИЕ&nbsp;цены</span> на туры <br/>
+<h2 class="header-bottom-form">Мы гарантируем <span>ЛУЧШИЕ&nbsp;цены</span> на туры <!--<br/>-->
     в Луцке</h2>
-<div class="top-form-container bottom-form-without-container">
-    <div class="form-descr box">
-        <h3>Получите <br/>
-            1000&nbsp;грн. на тур*</h3>
+<div id="content" class="page-wrap" style="padding-top: 30px; padding-bottom: 0;">
+    <div class="container content-wrapper">
+        <div class="row">
+            <div class="top-form-container bottom-form-without-container">
+                <div class="form-descr box">
+                    <h3>Получите <br/>
+                        1000&nbsp;грн. на тур*</h3>
 
-        <p><span>Акция!</span> Дарим сертификат на 1000&nbsp;грн. на покупку тура*
-            всем
-            посетителям
-            сайта. <br/>
-            Просто заполните форму.</p>
+                    <p><span>Акция!</span> Дарим сертификат на 1000&nbsp;грн. на покупку тура*
+                        всем
+                        посетителям
+                        сайта. <br/>
+                        Просто заполните форму.</p>
 
-        <p><span>Осталось всего 7 сертификатов!</span></p>
-    </div>
-    <div class="sidebar-column col-md-4">
-        <aside id="text-2" class="widget widget_text"><h3 class="widget-title"
-                                                          style="text-align: center; width: 93%;">
-                Заполните форму сейчас</h3>
-            <p class="under-header-in-form">и получите 5 вариантов отдыха с подробным расчётом цен</p>
-            <div class="textwidget">
-                <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
-                    <div class="screen-reader-response"></div>
-                    <form action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
-                          novalidate="novalidate">
-                        <div style="display: none;">
-                            <input type="hidden" name="_wpcf7" value="47">
-                            <input type="hidden" name="_wpcf7_version" value="4.5.1">
-                            <input type="hidden" name="_wpcf7_locale" value="ru_RU">
-                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f47-o1">
-                            <input type="hidden" name="_wpnonce" value="3f027fa8db">
-                        </div>
-                        <!--<p><label> Ваше имя (обязательно)<br>-->
+                    <p><span>Осталось всего 7 сертификатов!</span></p>
+                </div>
+                <div class="sidebar-column col-md-4">
+                    <aside id="text-2" class="widget widget_text"><h3 class="widget-title"
+                                                                      style="text-align: center; width: 93%;">
+                            Заполните форму сейчас</h3>
+                        <p class="under-header-in-form">и получите 5 вариантов отдыха с подробным расчётом цен</p>
+                        <div class="textwidget">
+                            <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
+                                <div class="screen-reader-response"></div>
+                                <form action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
+                                      novalidate="novalidate">
+                                    <div style="display: none;">
+                                        <input type="hidden" name="_wpcf7" value="47">
+                                        <input type="hidden" name="_wpcf7_version" value="4.5.1">
+                                        <input type="hidden" name="_wpcf7_locale" value="ru_RU">
+                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f47-o1">
+                                        <input type="hidden" name="_wpnonce" value="3f027fa8db">
+                                    </div>
+                                    <!--<p><label> Ваше имя (обязательно)<br>-->
                                             <span class="wpcf7-form-control-wrap your-name"><input type="text"
                                                                                                    style="width: 100%;"
                                                                                                    name="your-name"
@@ -221,8 +226,8 @@
                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"></span>
-                        <!--                        </label></p>-->
-                        <!--                                        <p><label> Контактный телефон (обязательно)<br>-->
+                                    <!--                        </label></p>-->
+                                    <!--                                        <p><label> Контактный телефон (обязательно)<br>-->
                                             <span class="wpcf7-form-control-wrap tel-564"><input type="tel"
                                                                                                  style="width: 100%;"
                                                                                                  name="tel-564"
@@ -231,27 +236,30 @@
                                                                                                  size="40"
                                                                                                  class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                                                                                                  aria-invalid="false"></span>
-                        <!--                        </label></p>-->
-                        <!--                                        <p><label> Пожелания к туру<br>-->
+                                    <!--                        </label></p>-->
+                                    <!--                                        <p><label> Пожелания к туру<br>-->
                                             <span class="wpcf7-form-control-wrap your-message"><textarea
                                                     name="your-message"
                                                     placeholder="Пожелания к туру*"
                                                     cols="40" rows="10"
                                                     class="wpcf7-form-control wpcf7-textarea"
                                                     aria-invalid="false"></textarea></span> </label></p>
-                        <p><input type="submit" value="Отправить"><!--<img class="ajax-loader"
+                                    <p><input type="submit" value="Отправить"><!--<img class="ajax-loader"
                                                                                                src="http://localhost/wpress/wp-content/plugins/contact-form-7/images/ajax-loader.gif"
                                                                                                alt="Отправка..."
                                                                                                style="visibility: hidden;">-->
-                            <!--                                            class="wpcf7-form-control wpcf7-submit"-->
-                        </p>
-                        <div class="wpcf7-response-output wpcf7-display-none"></div>
-                    </form>
-                    <p class="form-text2">Мы перезвоним вам через
-                        10 минут, засекайте!</p>
+                                        <!--                                            class="wpcf7-form-control wpcf7-submit"-->
+                                    </p>
+                                    <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                </form>
+                                <p class="form-text2">Мы перезвоним вам через
+                                    10 минут, засекайте!</p>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
             </div>
-        </aside>
+        </div>
     </div>
 </div>
 </div><!-- #content -->
@@ -274,17 +282,17 @@
             ул.&nbsp;Кривой Вал, 34, <br/>оф. 201</p>
 
         <p class="f-text3 box">
-            <a class="modal-link" href="#confidenc">Соглашение об обработке персональных данных.</a><br />
+            <a class="modal-link" href="#confidenc">Соглашение об обработке персональных данных.</a><br/>
 
-            <a class="modal-link" href="#confidenc2">Банковская гарантия</a><br />
+            <a class="modal-link" href="#confidenc2">Банковская гарантия</a><br/>
 
             <a class="modal-link" href="#confidenc3">Лицензия</a>
         </p>
     </div>
     <!--<div class="site-info container">
-        <a href="<?php /*echo esc_url(__('http://wordpress.org/', 'sydney')); */?>"><?php /*printf(__('Proudly powered by %s', 'sydney'), 'WordPress'); */?></a>
+        <a href="<?php /*echo esc_url(__('http://wordpress.org/', 'sydney')); */ ?>"><?php /*printf(__('Proudly powered by %s', 'sydney'), 'WordPress'); */ ?></a>
         <span class="sep"> | </span>
-        <?php /*printf(__('Theme: %2$s by %1$s.', 'sydney'), 'aThemes', '<a href="http://athemes.com/theme/sydney" rel="designer">Sydney</a>'); */?>
+        <?php /*printf(__('Theme: %2$s by %1$s.', 'sydney'), 'aThemes', '<a href="http://athemes.com/theme/sydney" rel="designer">Sydney</a>'); */ ?>
     </div><!-- .site-info -->
 </footer><!-- #colophon -->
 <div class="modal-boxes">

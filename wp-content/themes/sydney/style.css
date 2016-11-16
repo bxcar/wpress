@@ -2102,7 +2102,7 @@ Bottom
     background-color: #0093d0 !important;
     /*line-height: 35px;*/
     font-family: 'Open Sans', sans-serif;
-    padding: 5px 10px;
+    padding: 5px 105px;
     color: #fff !important;
 }
 
@@ -3645,7 +3645,16 @@ input[type="color"]:focus {
         text-align: left;
         color: #ffffff;
         font-size: 21px;
-        font-family: 'Open Sans', sans-serif
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+        background: url('/wpress/wp-content/themes/sydney/img/telephone_not_fill.png') no-repeat;
+        background-size: 20%;
+        padding-left: 50px;
+        margin-right: -40%;
+        margin-left: -20%;
+    }
+    .header-number-text {
+        font-size: 13px;
     }
 }
 
@@ -3668,12 +3677,14 @@ input[type="color"]:focus {
         color: #ffffff;
         font-size: 16px !important;
         font-family: 'Open Sans', sans-serif
+        /*font-size: 16px !important;*/
     }
 
     .sidebar-column {
-        width: 430px;
+        width: 370px !important;
         margin-left: 100px;
         margin-right: 100px;
+        height: 480px !important;
     }
     .prev .prev-item {
         margin-bottom: 50px;
@@ -3737,8 +3748,13 @@ input[type="color"]:focus {
         margin-top: 10px;
     }
 
-    .header-number p {
+    /*.header-number p {
         margin-top: 10px;
+    }*/
+    .header-number p {
+        /*font-size: 16px !important;*/
+        margin-top: -12px !important;
+        margin-left: -75px !important;
     }
     .content-area .hentry {
         width: 48%;
@@ -3787,6 +3803,8 @@ input[type="color"]:focus {
 
     .header-wrap .col-md-8 {
         padding: 0;
+        padding-left: 45px;
+        margin-bottom: -25px;
     }
 
     .last {
@@ -3853,7 +3871,7 @@ input[type="color"]:focus {
     }
 
     .header-number p {
-        margin-top: 10px;
+        margin-top: 5px;
     }
    /* .header-number p {
         !*font-size: 16px !important;*!
@@ -3905,6 +3923,10 @@ input[type="color"]:focus {
 }
 
 @media only screen and (max-width: 780px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .roll-client .client-item img {
         max-width: 100%;
     }
@@ -3951,6 +3973,30 @@ input[type="color"]:focus {
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+    .header-wrap .col-md-8 {
+        padding: 0;
+        margin-bottom: -25px;
+        /*margin-left: -50px;*/
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .site-header {
+        padding-top: 17px;
+        padding-bottom: 3px;
+    }
+    .row {
+        margin-top: -15px !important;
+    }
+    .header-bottom-form {
+        margin-top: 20px;
+        margin-bottom: -50px;
+    }
+    .site-footer {
+        padding: 5px 10px;
+    }
     input, textarea {
         width: 85% !important;
         margin-right: auto !important;
@@ -3985,12 +4031,22 @@ input[type="color"]:focus {
     .header-number {
         width: 22% !important;
     }
+
+    .header-number-text {
+        font-size: 12px;
+        display: inline-block;
+        vertical-align: top;
+        /*margin-left: -35px;*/
+        margin-left: -14px;
+        margin-top: -7px;
+    }
     .header-number p {
         /*font-size: 16px !important;*/
-        margin-left: -34px !important;
+        margin-top: -2px !important;
+        margin-left: -20px !important;
     }
     .sidebar-column {
-        width: 330px;
+        width: 300px !important;
         margin-left: 85px;
         padding-left: 0 !important;
     }
@@ -4157,7 +4213,7 @@ input[type="color"]:focus {
 
     .btn-menu {
         float: none;
-        margin: 15px auto 0;
+        margin: 15px 55px 0;
     }
 
     .header-wrap {
@@ -4187,14 +4243,23 @@ input[type="color"]:focus {
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
     .btn-menu {
-        margin-left: 50px !important;
+        margin-left: 30px !important;
     }
     .header-logo {
         width: 35% !important;
     }
+    /*.header-number p {
+        margin-top: -20px;
+        margin-left: -5px;
+
+    }*/
     .header-number p {
-        margin-top: 0px;
+        /*font-size: 16px !important;*/
+        margin-top: -12px !important;
+        /*margin-left: -34px !important;*/
+        margin-left: -50px !important;
     }
+
 
     .header-menu {
         width: 45% !important;
@@ -5019,7 +5084,7 @@ input[type="color"]:focus {
 
 .f-text1 {
     /*width: 380px;*/
-    width: 37%;
+    width: 36%;
     text-align: left;
 }
 
@@ -5141,6 +5206,7 @@ input[type="color"]:focus {
     border-radius: 15px;
     padding-left: 35px;
     padding-right: 35px;
+    width: 30%;
 }
 
 .wpcf7-text {
@@ -5238,13 +5304,13 @@ p {
     height: 210px !important;
 }*/
 
-.bottom-form-without-container {
+/*.bottom-form-without-container {
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
 .under-header-in-form {
     font-size: 16px;

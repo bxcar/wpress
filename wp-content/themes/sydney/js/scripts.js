@@ -3064,8 +3064,15 @@ $(document).ready(function() {
                 url: '/wpress/wp-content/themes/sydney/handler.php',
                 data: 'sort_id='+id,
                 type: 'get',
+                // dataType: 'json',
                 success: function (html) {
+                    // alert(html);
+                    /*$("#primary").html('');
+                    for(value in html) {
+                        $("#primary").append(html[value]);
+                    }*/
                     $("#primary").html(html).hide().fadeIn(2000);
+                    // $("article").attr("id","post-71");
                     $("#fon").css({'display':'none'});
                     $("#load").fadeOut(500);
                 },

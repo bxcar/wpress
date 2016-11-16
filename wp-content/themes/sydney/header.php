@@ -55,7 +55,8 @@
                         </nav><!-- #site-navigation -->
                     </div>
                     <div class="col-md-8 col-sm-4 col-xs-12 header-number">
-                        <p>067 528 2227</p>
+                        <p>067 528 2227<br><span class="header-number-text">Звоните нам сейчас!</span></p>
+
                     </div>
                 </div>
             </div>
