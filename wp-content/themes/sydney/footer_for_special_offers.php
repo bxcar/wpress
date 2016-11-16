@@ -31,6 +31,7 @@
         <aside id="text-2" class="widget widget_text"><h3 class="widget-title"
                                                           style="text-align: center; width: 93%;">
                 Заполните форму сейчас</h3>
+            <p class="under-header-in-form">и получите 5 вариантов отдыха с подробным расчётом цен</p>
             <div class="textwidget">
                 <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                     <div class="screen-reader-response"></div>
@@ -52,7 +53,7 @@
                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"></span>
-                        <!--                        </label></p>-->
+                        <!--                                        </label></p>-->
                         <!--                                        <p><label> Контактный телефон (обязательно)<br>-->
                                             <span class="wpcf7-form-control-wrap tel-564"><input type="tel"
                                                                                                  style="width: 100%;"
@@ -62,7 +63,7 @@
                                                                                                  size="40"
                                                                                                  class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                                                                                                  aria-invalid="false"></span>
-                        <!--                        </label></p>-->
+                        <!--                                        </label></p>-->
                         <!--                                        <p><label> Пожелания к туру<br>-->
                                             <span class="wpcf7-form-control-wrap your-message"><textarea
                                                     name="your-message"
@@ -141,7 +142,7 @@
 
             <a class="modal-link" href="#confidenc2">Банковская гарантия</a><br />
 
-            <a class="modal-link" href="#confidenc3">Лицензия</a>
+<!--            <a class="modal-link" href="#confidenc3">Лицензия</a>-->
         </p>
     </div>
     <!--<div class="site-info container">

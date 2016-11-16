@@ -57,7 +57,8 @@
                     <div class="col-md-8 col-sm-4 col-xs-12 header-number">
                         <!--<img src="/wpress/wp-content/themes/sydney/img/telephone_not_fill.png" width="30" height="30"
                              style="width: 21px; height: 21px; float: left; margin-right: 10px;">-->
-                        <p <!--style="overflow: hidden;-->">067 528 2227<br><span class="header-number-text">Звоните нам сейчас!</span>
+                        <p <!--style="overflow: hidden;-->">067 528 2227<br><span class="header-number-text">Звоните нам сейчас!</span></p>
+
                     </div>
                 </div>
             </div>
@@ -65,7 +66,7 @@
     </header><!-- #masthead -->
     <?php sydney_slider_template(); ?>
 
-    <div class="header-image header-image-tour-selection">
+    <div class="header-image header-image-about">
         <?php /*sydney_header_overlay();*/ ?>
         <img class="header-inner" src="<?php header_image(); ?>"
              width="<?php echo esc_attr(get_custom_header()->width); ?>" alt="<?php bloginfo('name'); ?>">
@@ -78,13 +79,26 @@
                     <p>[contact-form-7 id="47" title="Заполните форму"]</p>
                 </div>
 -->
-                <div class="top-form-container"
-                     style="background: url('/wpress/wp-content/themes/sydney/img/coralc2.jpg') no-repeat;
-                     background-size: 100%;
-                            width: 900px;
-                            height: 500px;
-                            margin-right: auto;
-                            margin-left: auto;">
-                </div>
+<!--                <div class="top-form-container">-->
+                    <p class="about">Официальное представительство туристической компании «Coral Travel», расположенное в Борисполе,
+                        с 2015 года предлагает вам комфортный, интересный и качественный отдых по доступным ценам.
+                        Опираясь на главный девиз «Coral Travel» - НАДЕЖНОСТЬ, мы стремимся обеспечивать услуги
+                        хорошего качества, основываясь на нашем опыте, неиссякаемой энергии и энтузиазме.
+                        Современный персональный подход открывает для наших клиентов удивительный дух и
+                        разнообразную культуру посещаемых стран.
+                        Нашим главным достижением является большое количество дольных клиентов, которые ощутили
+                        преимущества организованного отдыха, воспользовавшись услугами компании «Coral Travel» .
+                        Международная туристическая компания «Coral Travel» имеет более чем 20-ти летнюю безупречную
+                        репутацию, основанную на качестве предоставляемых услуг. Мы предлагаем туры в 28 стран
+                        и более 60-ти различных направлений из Украины. Услугами «Coral Travel» вы можете
+                        воспользоваться в 233 агентствах, представленных в 76 украинских городах.
+                    </p>
+<!--                </div>-->
+
+                <h2 class="tour-header about-tour-header">Мы для туристов, а не туристы для нас</h2>
+                <p class="about">Принципом работы компании является ориентированность на пожелания клиента.
+                    Откройте для себя новые места, посетите свои любимые уголки планеты,
+                    по новым неизведанным маршрутам, подобранным менеджерами компании
+                    «Coral Travel» специально для вас!</p>
 
                 

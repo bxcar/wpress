@@ -94,6 +94,31 @@ function get_header_for_special_offers( $name = null ) {
 
 	locate_template( $templates, true );
 }
+function get_header_for_about( $name = null ) {
+	/**
+	 * Fires before the header template file is loaded.
+	 *
+	 * The hook allows a specific header template file to be used in place of the
+	 * default header template file. If your file is called header-new.php,
+	 * you would specify the filename in the hook as get_header( 'new' ).
+	 *
+	 * @since 2.1.0
+	 * @since 2.8.0 $name parameter added.
+	 *
+	 * @param string $name Name of the specific header file to use.
+	 */
+	do_action( 'get_header_for_about', $name );
+
+	$templates = array();
+	$name = (string) $name;
+	if ( '' !== $name ) {
+		$templates[] = "header-{$name}.php";
+	}
+
+	$templates[] = 'header_for_about.php';
+
+	locate_template( $templates, true );
+}
 
 /**
  * Load footer template.
@@ -180,6 +205,31 @@ function get_footer_for_special_offers( $name = null ) {
 	}
 
 	$templates[]    = 'footer_for_special_offers.php';
+
+	locate_template( $templates, true );
+}
+function get_footer_for_about( $name = null ) {
+	/**
+	 * Fires before the footer template file is loaded.
+	 *
+	 * The hook allows a specific footer template file to be used in place of the
+	 * default footer template file. If your file is called footer-new.php,
+	 * you would specify the filename in the hook as get_footer( 'new' ).
+	 *
+	 * @since 2.1.0
+	 * @since 2.8.0 $name parameter added.
+	 *
+	 * @param string $name Name of the specific footer file to use.
+	 */
+	do_action( 'get_footer_for_about', $name );
+
+	$templates = array();
+	$name = (string) $name;
+	if ( '' !== $name ) {
+		$templates[] = "footer-{$name}.php";
+	}
+
+	$templates[]    = 'footer_for_about.php';
 
 	locate_template( $templates, true );
 }

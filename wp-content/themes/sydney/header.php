@@ -9,6 +9,25 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<!--    <link rel="stylesheet" href="/wpress/wp-content/themes/sydney/fancybox/jquery.fancybox.css"  />-->
+<!--    <link rel="icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
+<!--    <link rel="shortcut icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
+<!---->
+<!---->
+<!--    <!--[if lt IE 10]>-->
+<!--    <script src="/wpress/wp-content/themes/sydney/js/html5shiv.js"></script>-->
+<!--    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="http://browsehappy.com/" target="_blank">обновите свой браузер,</a> чтобы улучшить отображение сайта.</p>-->
+<!--    <![endif]-->
+<!---->
+<!--    <script type="text/javascript" src="/wpress/wp-content/themes/sydney/js/lib/jquery-1.8.0.min.js"></script>-->
+<!--    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
+<!---->
+<!--    <script type="text/javascript" src="/wpress/wp-content/themes/sydney/fancybox/jquery.fancybox.pack.js"></script>-->
+<!--    <script type="text/javascript" src="/wpress/wp-content/themes/sydney/js/lib/jquery.cookie.js"></script>-->
+<!---->
+<!--    <script src="/wpress/wp-content/themes/sydney/js/jquery.maskedinput.min.js"></script>-->
+<!--<!--    <script src="/wpress/wp-content/themes/sydney/js/scripts1.js"></script>-->
+<!--    <script src="/wpress/wp-content/themes/sydney/js/multi.js"></script>-->
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -21,6 +40,9 @@
     <?php endif; ?>
 
     <?php wp_head(); ?>
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fancybox/jquery.fancybox.css" />
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -55,7 +77,9 @@
                         </nav><!-- #site-navigation -->
                     </div>
                     <div class="col-md-8 col-sm-4 col-xs-12 header-number">
-                        <p>067 528 2227<br><span class="header-number-text">Звоните нам сейчас!</span></p>
+                        <!--<img src="/wpress/wp-content/themes/sydney/img/telephone_not_fill.png" width="30" height="30"
+                             style="width: 21px; height: 21px; float: left; margin-right: 10px;">-->
+                        <p <!--style="overflow: hidden;-->">067 528 2227<br><span class="header-number-text">Звоните нам сейчас!</span></p>
 
                     </div>
                 </div>

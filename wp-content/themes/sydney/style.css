@@ -817,6 +817,17 @@ Header
     background-repeat: no-repeat;
 }
 
+.header-image-about {
+    background-image: url("/wpress/wp-content/themes/sydney/images/header_about2_1.png") !important;
+}
+
+.header-image-special {
+    background-image: url("/wpress/wp-content/themes/sydney/images/special.jpg") !important;
+}
+
+.header-image-tour-selection {
+    background-image: url("/wpress/wp-content/themes/sydney/images/header_about1.jpg") !important;
+}
 .header-inner {
     display: none;
 }
@@ -3551,12 +3562,13 @@ input[type="color"]:focus {
 }
 
 .roll-button {
-    background-color: #d65050;
-    border: 1px solid #d65050;
+    /*background-color: #d65050;*/
+    background-color: #0093d0;
+    border: 1px solid #0093d0;
 }
 
 .roll-button:hover {
-    color: #d65050;
+    color: #0093d0;
 }
 
 .roll-button.border {
@@ -3641,6 +3653,7 @@ input[type="color"]:focus {
         width: 14% !important;
     }
 
+
     .header-number p {
         text-align: left;
         color: #ffffff;
@@ -3648,11 +3661,20 @@ input[type="color"]:focus {
         font-family: 'Open Sans', sans-serif;
         line-height: 20px;
         background: url('/wpress/wp-content/themes/sydney/img/telephone_not_fill.png') no-repeat;
-        background-size: 20%;
+        background-position-x: 20px;
+        /*background-position-y: 10px;*/
+        background-size: 22px;
         padding-left: 50px;
         margin-right: -40%;
         margin-left: -20%;
     }
+
+    .header-number p:hover {
+        background: url('/wpress/wp-content/themes/sydney/img/telephone-fill_2.png') no-repeat;
+        background-size: 22px;
+        background-position-x: 20px;
+    }
+
     .header-number-text {
         font-size: 13px;
     }
@@ -4965,6 +4987,7 @@ input[type="color"]:focus {
     padding: 0px 0 40px;
     background: #08b4da;
     position: relative;
+    overflow: hidden;
 }
 
 .prices h2 {
@@ -5315,3 +5338,41 @@ p {
 .under-header-in-form {
     font-size: 16px;
 }
+
+.about {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-prev div{
+    display: block !important;
+    width: auto !important;
+}
+
+.about-prev img {
+    float: left;
+}
+
+.about-prev .title {
+    text-align: center;
+}
+
+.about-prev .prev-item p.title {
+    margin-bottom: 5px;
+}
+
+.about-prev h2 {
+    margin-bottom: 0;
+    color: #ff7300;
+    margin-top: 30px;
+}
+
+.about-prev .text {
+    padding-left: 50px;
+}
+
+.about-tour-header {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+

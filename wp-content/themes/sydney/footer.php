@@ -10,7 +10,7 @@
 <p class="prices-info">Все сборы уже включены в стоимость! По некоторым направлениям необходимо
     открытие визы. Стоимость указана
     на одного при двухместном размещении. Цены реальные, но места кончаются</p>
-<p class="get-offers-button"><a class="btn1 modal-link product-link" href="#tour"
+<p class="get-offers-button"><a class="btn1 modal-link product-link" href="/wpress/спецпредложения/"
                                 data-order="Получить все предложения">Получить все предложения</a></p>
 <!--<section class="request">
     <div class="grid add-padding">
@@ -286,7 +286,7 @@
 
             <a class="modal-link" href="#confidenc2">Банковская гарантия</a><br/>
 
-            <a class="modal-link" href="#confidenc3">Лицензия</a>
+<!--            <a class="modal-link" href="#confidenc3">Лицензия</a>-->
         </p>
     </div>
     <!--<div class="site-info container">
@@ -295,6 +295,8 @@
         <?php /*printf(__('Theme: %2$s by %1$s.', 'sydney'), 'aThemes', '<a href="http://athemes.com/theme/sydney" rel="designer">Sydney</a>'); */ ?>
     </div><!-- .site-info -->
 </footer><!-- #colophon -->
+<?php wp_footer(); ?>
+</div><!-- #page -->
 <div class="modal-boxes">
     <div id="feedback" class="modal">
         <div class="form-block">
@@ -423,7 +425,5 @@
         </div>
     </div>
 </div>
-<?php wp_footer(); ?>
-</div><!-- #page -->
 </body>
 </html>

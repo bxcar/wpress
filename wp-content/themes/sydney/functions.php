@@ -4,8 +4,8 @@
  *
  * @package Sydney
  */
-update_option( 'siteurl', 'http://192.168.0.98/wpress' );
-update_option( 'home', 'http://192.168.0.98/wpress' );
+update_option( 'siteurl', 'http://192.168.0.102/wpress' );
+update_option( 'home', 'http://192.168.0.102/wpress' );
 
 
 if ( ! function_exists( 'sydney_setup' ) ) :
