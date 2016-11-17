@@ -4883,7 +4883,7 @@ input[type="color"]:focus {
 }
 
 .Dunai {
-    background: url("/wpress/wp-content/themes/maintheme/img/Dunai.jpg") no-repeat;
+    background: url("/wpress/wp-content/themes/sydney/img/Dunai.png") no-repeat;
 }
 
 .Desyatnik {
@@ -5229,6 +5229,7 @@ input[type="color"]:focus {
 
 .sidebar-column {
     /*height: 560px;*/
+    overflow: hidden;
     height: 470px;
     min-width: 300px;
     float: none;
@@ -5444,4 +5445,15 @@ p {
 
 #popmake-158 {
     font-family: "Open Sans", sans-serif;
+}
+
+.seo-hot-tour, .seo-tour-selection {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+}
+
+.seo-hot-tour h3, .seo-tour-selection h3 {
+    text-align: center;
+    font-weight: 300;
+    color: #ff7300;
 }

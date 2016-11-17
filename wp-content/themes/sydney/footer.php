@@ -200,6 +200,21 @@
 
                     <p><span>Осталось всего 7 сертификатов!</span></p>
                 </div>
+                <script>
+                    document.getElementById('contact-form').addEventListener('submit', function (evt) {
+                        var loading = document.getElementById("submit-but");
+                        loading.setAttribute("value", "");
+                        loading.setAttribute("style",
+                            "background: url(/wpress/wp-content/themes/sydney/img/post_preloader.gif) 50% 50% no-repeat #0088e7  !important;");
+                    }, false);
+//                    $(event.target).find(".wpcf7-response-output").on("DOMNodeInserted", function (event) {
+                    document.getElementById('contact-form').addEventListener('DOMNodeInserted', function (evt) {
+                        var loading = document.getElementById("submit-but");
+                        loading.setAttribute("value", "Отправить");
+                        loading.setAttribute("style",
+                            "background: #0088e7 !important;");
+                    });
+                </script>
                 <div class="sidebar-column col-md-4">
                     <aside id="text-2" class="widget widget_text"><h3 class="widget-title"
                                                                       style="text-align: center; width: 93%;">
@@ -283,9 +298,9 @@
             e-mail: coralborispol@gmail.com</p>
 
         <p class="f-text3 box">
-            <a class="popmake-158 modal-link" href="#">Соглашение об обработке персональных данных.</a><br />
+            <a class="popmake-158 modal-link" href="#">Соглашение об обработке персональных данных.</a><br/>
 
-            <a class="popmake-bank modal-link" href="#">Банковская гарантия</a><br />
+            <a class="popmake-bank modal-link" href="#">Банковская гарантия</a><br/>
 
             <!--            <a class="modal-link" href="#confidenc3">Лицензия</a>-->
         </p>

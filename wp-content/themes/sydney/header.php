@@ -126,7 +126,7 @@
                             <div class="textwidget">
                                 <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                                     <div class="screen-reader-response"></div>
-                                    <form action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
+                                    <form id="contact-form" action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
                                           novalidate="novalidate">
                                         <div style="display: none;">
                                             <input type="hidden" name="_wpcf7" value="47">
@@ -162,7 +162,7 @@
                                                     cols="40" rows="10"
                                                     class="wpcf7-form-control wpcf7-textarea"
                                                     aria-invalid="false"></textarea></span> </label></p>
-                                        <p><input type="submit" value="Отправить"><!--<img class="ajax-loader"
+                                        <p><input id="submit-but" type="submit" value="Отправить"><!--<img class="ajax-loader"
                                                                                                src="http://localhost/wpress/wp-content/plugins/contact-form-7/images/ajax-loader.gif"
                                                                                                alt="Отправка..."
                                                                                                style="visibility: hidden;">-->
