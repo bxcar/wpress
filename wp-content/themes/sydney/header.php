@@ -9,30 +9,32 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<!--    <link rel="stylesheet" href="/wpress/wp-content/themes/sydney/fancybox/jquery.fancybox.css"  />-->
-<!--    <link rel="icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
-<!--    <link rel="shortcut icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
-<!---->
-<!---->
-<!--    <!--[if lt IE 10]>-->
-<!--    <script src="/wpress/wp-content/themes/sydney/js/html5shiv.js"></script>-->
-<!--    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="http://browsehappy.com/" target="_blank">обновите свой браузер,</a> чтобы улучшить отображение сайта.</p>-->
-<!--    <![endif]-->
-<!---->
-<!--    <script type="text/javascript" src="/wpress/wp-content/themes/sydney/js/lib/jquery-1.8.0.min.js"></script>-->
-<!--    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
-<!---->
-<!--    <script type="text/javascript" src="/wpress/wp-content/themes/sydney/fancybox/jquery.fancybox.pack.js"></script>-->
-<!--    <script type="text/javascript" src="/wpress/wp-content/themes/sydney/js/lib/jquery.cookie.js"></script>-->
-<!---->
-<!--    <script src="/wpress/wp-content/themes/sydney/js/jquery.maskedinput.min.js"></script>-->
-<!--<!--    <script src="/wpress/wp-content/themes/sydney/js/scripts1.js"></script>-->
-<!--    <script src="/wpress/wp-content/themes/sydney/js/multi.js"></script>-->
+    <!--    <link rel="stylesheet" href="/wpress/wp-content/themes/sydney/fancybox/jquery.fancybox.css"  />-->
+    <!--    <link rel="icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
+    <!--    <link rel="shortcut icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
+    <!---->
+    <!---->
+    <!--    <!--[if lt IE 10]>-->
+    <!--    <script src="/wpress/wp-content/themes/sydney/js/html5shiv.js"></script>-->
+    <!--    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста, <a href="http://browsehappy.com/" target="_blank">обновите свой браузер,</a> чтобы улучшить отображение сайта.</p>-->
+    <!--    <![endif]-->
+    <!---->
+    <!--    <script type="text/javascript" src="/wpress/wp-content/themes/sydney/js/lib/jquery-1.8.0.min.js"></script>-->
+    <!--    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
+    <!---->
+    <!--    <script type="text/javascript" src="/wpress/wp-content/themes/sydney/fancybox/jquery.fancybox.pack.js"></script>-->
+    <!--    <script type="text/javascript" src="/wpress/wp-content/themes/sydney/js/lib/jquery.cookie.js"></script>-->
+    <!---->
+    <!--    <script src="/wpress/wp-content/themes/sydney/js/jquery.maskedinput.min.js"></script>-->
+    <!--<!--    <script src="/wpress/wp-content/themes/sydney/js/scripts1.js"></script>-->
+    <!--    <script src="/wpress/wp-content/themes/sydney/js/multi.js"></script>-->
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic"
+        rel="stylesheet">
     <?php if (!function_exists('has_site_icon') || !has_site_icon()) : ?>
         <?php if (get_theme_mod('site_favicon')) : ?>
             <link rel="shortcut icon" href="<?php echo esc_url(get_theme_mod('site_favicon')); ?>"/>
@@ -40,12 +42,14 @@
     <?php endif; ?>
 
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fancybox/jquery.fancybox.css" />
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/fancybox/jquery.fancybox.pack.js"></script>
-    <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body <?php body_class(); ?>>
+<!--<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('a[rel="fancybox"]').fancybox();
+    });
+</script>-->
 <div class="preloader">
     <div class="spinner">
         <div class="pre-bounce1"></div>
@@ -140,7 +144,7 @@
                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"></span>
-<!--                                        </label></p>-->
+                                        <!--                                        </label></p>-->
                                         <!--                                        <p><label> Контактный телефон (обязательно)<br>-->
                                             <span class="wpcf7-form-control-wrap tel-564"><input type="tel"
                                                                                                  style="width: 100%;"
@@ -150,7 +154,7 @@
                                                                                                  size="40"
                                                                                                  class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                                                                                                  aria-invalid="false"></span>
-<!--                                        </label></p>-->
+                                        <!--                                        </label></p>-->
                                         <!--                                        <p><label> Пожелания к туру<br>-->
                                             <span class="wpcf7-form-control-wrap your-message"><textarea
                                                     name="your-message"
@@ -173,6 +177,6 @@
                         </aside>
                     </div>
                 </div>
-                <h2 class="tour-header">Лучшие Цены на&nbsp;Туры по&nbsp;направлениям</h2>
+                <h2 id="goto-from-top-button" class="tour-header">Лучшие Цены на&nbsp;Туры по&nbsp;направлениям</h2>
 
                 

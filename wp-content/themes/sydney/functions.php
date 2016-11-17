@@ -4,8 +4,8 @@
  *
  * @package Sydney
  */
-update_option( 'siteurl', 'http://192.168.0.102/wpress' );
-update_option( 'home', 'http://192.168.0.102/wpress' );
+update_option( 'siteurl', 'http://192.168.0.98/wpress' );
+update_option( 'home', 'http://192.168.0.98/wpress' );
 
 
 if ( ! function_exists( 'sydney_setup' ) ) :
@@ -179,7 +179,7 @@ function sydney_scripts() {
 
 	wp_enqueue_style( 'sydney-ie9', get_template_directory_uri() . '/css/ie9.css', array( 'sydney-style' ) );
 	wp_style_add_data( 'sydney-ie9', 'conditional', 'lte IE 9' );
-	wp_enqueue_style('jquery.fancybox', get_template_directory_uri() . '/fancybox/jquery.fancybox.css'); //
+//	wp_enqueue_style('jquery.fancybox', get_template_directory_uri() . '/fancybox/jquery.fancybox.css'); //
 
 	wp_enqueue_script( 'sydney-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'),'', true );
 
@@ -189,13 +189,13 @@ function sydney_scripts() {
 
 	//wp_enqueue_script('device.js', get_template_directory_uri() . '/add/device.js-master/lib/device.js');
 	//wp_enqueue_script('html5shiv', get_template_directory_uri() . '/js/html5shiv.js');
-	wp_enqueue_script('jquery-1.8.0.min', get_template_directory_uri() . '/js/lib/jquery-1.8.0.min.js');
-	wp_enqueue_script('jquery.fancybox.pack.js', get_template_directory_uri() . '/fancybox/jquery.fancybox.pack.js');
-	wp_enqueue_script('jquery.fancybox.js', get_template_directory_uri() . '/fancybox/jquery.fancybox.js');
+//	wp_enqueue_script('jquery-1.8.0.min', get_template_directory_uri() . '/js/lib/jquery-1.8.0.min.js');
+//	wp_enqueue_script('jquery.fancybox.pack.js', get_template_directory_uri() . '/fancybox/jquery.fancybox.pack.js');
+//	wp_enqueue_script('jquery.fancybox.js', get_template_directory_uri() . '/fancybox/jquery.fancybox.js');
 	wp_enqueue_script('jquery.cookie', get_template_directory_uri() . '/js/lib/jquery.cookie.js');
 	wp_enqueue_script('jquery.maskedinput.min', get_template_directory_uri() . '/js/jquery.maskedinput.min.js');
-	wp_enqueue_script('form-val', get_template_directory_uri() . '/js/form-val.js');
-	wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts1.js');
+//	wp_enqueue_script('form-val', get_template_directory_uri() . '/js/form-val.js');
+//	wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts1.js');
 	wp_enqueue_script('multi', get_template_directory_uri() . '/js/multi.js');
 
 	if ( get_theme_mod('blog_layout') == 'masonry-layout' && (is_home() || is_archive()) ) {

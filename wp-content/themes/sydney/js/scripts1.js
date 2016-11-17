@@ -6,6 +6,7 @@ $(document).ready(function(){
 
     /* init fancybox */
 
+
     $(".modal-link").fancybox({
         'padding' : 0,
         'background' : 'none'
@@ -43,7 +44,7 @@ $(document).ready(function(){
 			cntry = $(this).attr('country');
 			formOrder = cntry+', '+$(this).attr('data-order');			
             console.log(formOrder);
-				if (cntry){	
+				if (cntry){
 					$("h5").html(formOrder);
 				}
         });

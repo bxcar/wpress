@@ -1,5 +1,56 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 1
+ * Date: 13.11.2016
+ * Time: 22:51
+ */
+
+/**
+ * The template for displaying the footer.
+ *
+ * Contains the closing of the #content div and all content after
+ *
+ * @package Sydney
+ */
+?>
+</div>
+</div>
+</div><!-- #content -->
+
+<?php if (is_active_sidebar('footer-1')) : ?>
+    <?php get_sidebar('footer'); ?>
+<?php endif; ?>
+
+<a class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="grid foot">
+        <p class="f-text1 box">ООО «ХОРОШЕЕ АГЕНСТВО» <br/>
+            ЕГРПОУ: 39818659 <br/>
+            р/счет: 26008053135083<br/>
+            моб. +38(098) 116 9555
+        </p>
+
+        <p class="f-text2 box">г.&nbsp;Борисполь, <br/>
+            ул.&nbsp;Киевский шлях, 2/6, <br/>ТРЦ «АЕРОМОЛ»<br>
+            e-mail: coralborispol@gmail.com</p>
+
+        <p class="f-text3 box">
+            <a class="popmake-158 modal-link" href="#">Соглашение об обработке персональных данных.</a><br />
+
+            <a class="popmake-bank modal-link" href="#">Банковская гарантия</a><br />
+
+            <!--            <a class="modal-link" href="#confidenc3">Лицензия</a>-->
+        </p>
+    </div>
+    <!--<div class="site-info container">
+        <a href="<?php /*echo esc_url(__('http://wordpress.org/', 'sydney')); */?>"><?php /*printf(__('Proudly powered by %s', 'sydney'), 'WordPress'); */?></a>
+        <span class="sep"> | </span>
+        <?php /*printf(__('Theme: %2$s by %1$s.', 'sydney'), 'aThemes', '<a href="http://athemes.com/theme/sydney" rel="designer">Sydney</a>'); */?>
+    </div><!-- .site-info -->
+</footer><!-- #colophon -->
 <div class="modal-boxes">
-    <!--<link rel="stylesheet" href="/wpress/wp-content/themes/sydney/style.css">-->
     <div id="feedback" class="modal">
         <div class="form-block">
             <h3>Обратный звонок</h3>
@@ -23,6 +74,7 @@
             </form>
         </div>
     </div>
+
     <div id="tour" class="modal">
 
         <h4>Получить Лучшие цены на туры
@@ -126,64 +178,7 @@
         </div>
     </div>
 </div>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-<form class="pup-form" action="/wpress/wp-content/themes/sydney/pupup_sendmessage.php" method="post">
-    <input type="text" name="name" placeholder="Имя" />
-    <span>Как к вам обращаться</span>
-    <input type="tel" name="phone" placeholder="+38 (0XX) XXX-XX-XX" />
-    <span>Ваш номер телефона</span>
-    <input type="submit" value="Отправить" /></form>
-<p>Відправляючи форму в надаєте згоду на обробку персональних даних згідно Закону України «Про захист персональних даних»</p>
-
+<?php wp_footer(); ?>
+</div><!-- #page -->
 </body>
 </html>
-
-printf("
-<article id=\"post-%s\" %s>
-
-    %s
-    <div class=\"entry-thumb\">
-            <span class=\"custom-size\" href=\"%s\"
-                  title=\"%s\">%s</span>
-    </div>
-    %s
-
-    <header class=\"entry-header\">
-        %s
-    </header><!-- .entry-header -->
-
-    <div class=\"entry-post\">
-        %s
-        %s
-        %s
-        %s
-        %s
-
-        %s
-    </div><!-- .entry-post -->
-
-    <footer class=\"entry-footer\">
-        <div class=\"tprice\"> <!-- for tags the_tags() --> <!-- for date the_date('d.m.y') -->
-            <!--fot link to record the_permalink()-->
-            <!-- для сокращенной записи the_excerpt();-->
-            <div>от <strong><b>%s</b></strong> $</div>
-            <img style=\"display: none;\" id=\"im\" src=\"/wpress/wp-content/themes/sydney/img/icons/privilege2.png\">
-            <a rel=\"fancybox\" href=\"#\" class=\"popmake-129 btnprice modal-link product-link\"
-            data-order=\"AMC Royal Hotel 5*\" country=\"Египет\">Еще цены</a>
-        </div>
-    </footer>
-</article>","the_ID()", "post_class()", "if (has_post_thumbnail() && (get_theme_mod('index_feat_image') != 1)) :; the_permalink()",
-"the_title()", "the_post_thumbnail('sydney-large-thumb')", "endif",
-"the_title(sprintf('<h2 class=\"title-post\"><span style=\"color: #0088e7;\" href=\"%s\" rel=\"bookmark\">', esc_url(get_permalink())), '</span></h2>')",
-if ((get_theme_mod('full_content_home') == 1 && is_home()) || (get_theme_mod('full_content_archives') == 1 && is_archive())) :;
-the_content(); else :; the_excerpt(); endif;
-wp_link_pages(array(
-'before' => '<div class="page-links">' . __('Pages:', 'sydney'),
-    'after' => '</div>',
-)); the_tags('<style>b a {color: #0088e7;}</style>'));

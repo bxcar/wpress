@@ -3070,7 +3070,9 @@ $(document).ready(function() {
                     /*$("#primary").html('');
                     for(value in html) {
                         $("#primary").append(html[value]);
+
                     }*/
+                    // alert("hello");
                     $("#primary").html(html).hide().fadeIn(2000);
                     // $("article").attr("id","post-71");
                     $("#fon").css({'display':'none'});

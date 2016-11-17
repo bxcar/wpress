@@ -3751,6 +3751,9 @@ input[type="color"]:focus {
 
 /* Smaller than standard 980 */
 @media only screen and (max-width: 991px) {
+    .tour-header {
+        line-height: 50px !important;
+    }
     .prefooter {
         display: inline !important;
         margin-right: 0 !important;
@@ -4524,6 +4527,13 @@ input[type="color"]:focus {
     text-align: center;
 }
 
+.btnprice a:focus {
+    color: white !important;
+}
+.btnprice:visited {
+    color: white;
+}
+
 .prices-info {
     color: #363636;
     font-size: 14px;
@@ -5132,7 +5142,8 @@ input[type="color"]:focus {
 
 .tour-header {
     text-align: center;
-    margin-bottom: 50px;
+    /*margin-bottom: 30px;*/
+    line-height: 150px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
@@ -5376,3 +5387,61 @@ p {
     font-size: 30px;
 }
 
+.pup-form form {
+    text-align: center;
+}
+.pup-form input {
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#popmake-129 {
+    width: 500px;
+}
+
+#pum_popup_title_129 {
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.pup-form input[type="submit"] {
+    margin-bottom: 0px;
+    /*font-family: "Open Sans", sans-serif;*/
+}
+#popmake-129  input,
+#popmake-129 .pum-content>:last-child {
+    width: 86%;
+    margin-left: 7%;
+    margin-right: auto;
+}
+
+#popmake-129 .pum-content>:last-child {
+    margin-top: 10px !important;
+    font-size: 12px;
+}
+
+#popmake-129 span {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -16px;
+    margin-left: 7%;
+    color:  #0088e7;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#popmake-129 input[type="text"],
+.#popmake-129 input[type="tel"]{
+    border: 1px solid #33a9d9;
+    border-radius: 4px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#popmake-158 #pum_popup_title_158 {
+    margin-bottom: 20px;
+}
+
+#popmake-158 {
+    font-family: "Open Sans", sans-serif;
+}

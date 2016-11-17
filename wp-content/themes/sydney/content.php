@@ -3,7 +3,6 @@
  * @package Sydney
  */
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
     <?php if (has_post_thumbnail() && (get_theme_mod('index_feat_image') != 1)) : ?>
@@ -45,7 +44,7 @@
             <!-- для сокращенной записи the_excerpt();-->
             <div>от <strong><b><?php the_tags('<style>b a {color: #0088e7;}</style>'); ?></b></strong> $</div>
             <img style="display: none;" id="im" src="/wpress/wp-content/themes/sydney/img/icons/privilege2.png">
-            <a rel="fancybox" href="/wpress/wp-content/themes/sydney/fanc.html" class="btnprice modal-link product-link"
+            <a rel="fancybox" href="#" class="popmake-129 btnprice modal-link product-link"
                data-order="AMC Royal Hotel 5*" country="Египет">Еще цены</a>
         </div>
     </footer><!-- .entry-footer -->
@@ -178,3 +177,5 @@
         </div>
     </div>
 </div>
+
+

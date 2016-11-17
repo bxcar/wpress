@@ -128,21 +128,22 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="grid foot">
-        <p class="f-text1 box">ООО «МАКИНТУР» <br/>
-            ЕГРПОУ: 36480659 <br/>
-            р/счет: 26003053130696<br/>
-            моб. +38(068) 528 2227
+        <p class="f-text1 box">ООО «ХОРОШЕЕ АГЕНСТВО» <br/>
+            ЕГРПОУ: 39818659 <br/>
+            р/счет: 26008053135083<br/>
+            моб. +38(098) 116 9555
         </p>
 
-        <p class="f-text2 box">г.&nbsp;Луцк, <br/>
-            ул.&nbsp;Кривой Вал, 34, <br/>оф. 201</p>
+        <p class="f-text2 box">г.&nbsp;Борисполь, <br/>
+            ул.&nbsp;Киевский шлях, 2/6, <br/>ТРЦ «АЕРОМОЛ»<br>
+            e-mail: coralborispol@gmail.com</p>
 
         <p class="f-text3 box">
-            <a class="modal-link" href="#confidenc">Соглашение об обработке персональных данных.</a><br />
+            <a class="popmake-158 modal-link" href="#">Соглашение об обработке персональных данных.</a><br />
 
-            <a class="modal-link" href="#confidenc2">Банковская гарантия</a><br />
+            <a class="popmake-bank modal-link" href="#">Банковская гарантия</a><br />
 
-<!--            <a class="modal-link" href="#confidenc3">Лицензия</a>-->
+            <!--            <a class="modal-link" href="#confidenc3">Лицензия</a>-->
         </p>
     </div>
     <!--<div class="site-info container">
