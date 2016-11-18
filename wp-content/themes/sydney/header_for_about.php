@@ -75,7 +75,7 @@
 
     <div id="content" class="page-wrap" style="padding-top: 30px; padding-bottom: 0;">
         <div class="container content-wrapper">
-            <div class="row">
+            <div class="row row-for-padding">
                 <!--<div class="form" style="width: 500px; height: 500px;">
                     <p>[contact-form-7 id="47" title="Заполните форму"]</p>
                 </div>

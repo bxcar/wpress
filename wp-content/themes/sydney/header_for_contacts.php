@@ -79,13 +79,7 @@
                     <p>[contact-form-7 id="47" title="Заполните форму"]</p>
                 </div>
 -->
-                <div class="top-form-container"
-                     style="/*background: url('/wpress/wp-content/themes/sydney/img/coralc2.jpg') no-repeat;*/
-                     background-size: 100%;
-                            width: 900px;
-                            height: 500px;
-                            margin-right: auto;
-                            margin-left: auto;">
+                <div class="top-form-container top-form-container-contacts">
                     <div class="contacts-text-left">
                         <p>Приходите к нам. Мы всегда рады нашим туристам!</p>
                         <p><span>Адрес:</span><br>  Борисполь, ул. Киевский Шлях, 2/6 ТРЦ&nbsp;Аэромолл<br>
@@ -98,8 +92,8 @@
                             <strong>coralborispol@gmail.com</strong>
                         </p>
                     </div>
-                    <div class="contcts-map-right" style="float: right;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.1364595532696!2d30.92083026659438!3d50.36400992402535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f2b88ab99d49d4f!2z0JDRjdGA0L7QvNC-0LvQuyDQotCg0KY!5e0!3m2!1sru!2sua!4v1479465435502" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="contacts-map-right" style="display: inline-block; vertical-align: top;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.1364595532696!2d30.92083026659438!3d50.36400992402535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f2b88ab99d49d4f!2z0JDRjdGA0L7QvNC-0LvQuyDQotCg0KY!5e0!3m2!1sru!2sua!4v1479465435502" width="350" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
 
