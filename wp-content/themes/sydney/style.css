@@ -4887,15 +4887,15 @@ input[type="color"]:focus {
 }
 
 .Desyatnik {
-    background: url("/wpress/wp-content/themes/maintheme/img/Desyatnik.jpg") no-repeat;
+    background: url("/wpress/wp-content/themes/sydney/img/Dunai.png") no-repeat;
 }
 
 .Chorna {
-    background: url("/wpress/wp-content/themes/maintheme/img/Chorna.jpg") no-repeat;
+    background: url("/wpress/wp-content/themes/sydney/img/Dunai.png") no-repeat;
 }
 
 .Korolchuk {
-    background: url("/wpress/wp-content/themes/maintheme/img/Korolchuk.jpg") no-repeat;
+    background: url("/wpress/wp-content/themes/sydney/img/Dunai.png") no-repeat;
 }
 
 .box {
@@ -5161,6 +5161,10 @@ input[type="color"]:focus {
     text-align: left;
 }
 
+.form-descr-special {
+    margin-top: 80px;
+}
+
 .form-descr h3 {
     margin-bottom: 22px;
     /*color: #363636;*/
@@ -5244,6 +5248,9 @@ input[type="color"]:focus {
     width: 30%;
 }
 
+.sidebar-column-special {
+    margin-top: 80px;
+}
 .wpcf7-text {
     margin-bottom: 15px;
 }
@@ -5376,6 +5383,7 @@ p {
     margin-bottom: 0;
     color: #ff7300;
     margin-top: 30px;
+    margin-left: 6%;
 }
 
 .about-prev .text {
@@ -5386,6 +5394,7 @@ p {
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 30px;
+    line-height: 50px;
 }
 
 .pup-form form {

@@ -9,6 +9,23 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+    <script>
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (evt) {
+                var loading = document.getElementById("submit-but");
+                loading.setAttribute("value", "");
+                loading.setAttribute("style",
+                    "background: url(/wpress/wp-content/themes/sydney/img/post_preloader.gif) 50% 50% no-repeat #0088e7  !important;");
+            }, false);
+            //                    $(event.target).find(".wpcf7-response-output").on("DOMNodeInserted", function (event) {
+            document.getElementById('contact-form').addEventListener('DOMNodeInserted', function (evt) {
+                var loading = document.getElementById("submit-but");
+                loading.setAttribute("value", "Отправить");
+                loading.setAttribute("style",
+                    "background: #0088e7 !important;");
+            });
+        }
+    </script>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">

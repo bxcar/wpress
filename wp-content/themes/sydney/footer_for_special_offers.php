@@ -15,7 +15,7 @@
  */
 ?>
 <div class="top-form-container">
-    <div class="form-descr box">
+    <div class="form-descr box form-descr-special">
         <h3>Получите <br/>
             1000&nbsp;грн. на тур*</h3>
 
@@ -27,7 +27,22 @@
 
         <p><span>Осталось всего 7 сертификатов!</span></p>
     </div>
-    <div class="sidebar-column col-md-4">
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (evt) {
+            var loading = document.getElementById("submit-but");
+            loading.setAttribute("value", "");
+            loading.setAttribute("style",
+                "background: url(/wpress/wp-content/themes/sydney/img/post_preloader.gif) 50% 50% no-repeat #0088e7  !important;");
+        }, false);
+        //                    $(event.target).find(".wpcf7-response-output").on("DOMNodeInserted", function (event) {
+        document.getElementById('contact-form').addEventListener('DOMNodeInserted', function (evt) {
+            var loading = document.getElementById("submit-but");
+            loading.setAttribute("value", "Отправить");
+            loading.setAttribute("style",
+                "background: #0088e7 !important;");
+        });
+    </script>
+    <div class="sidebar-column col-md-4 sidebar-column-special">
         <aside id="text-2" class="widget widget_text"><h3 class="widget-title"
                                                           style="text-align: center; width: 93%;">
                 Заполните форму сейчас</h3>
@@ -35,7 +50,7 @@
             <div class="textwidget">
                 <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                     <div class="screen-reader-response"></div>
-                    <form action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
+                    <form id="contact-form" action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
                           novalidate="novalidate">
                         <div style="display: none;">
                             <input type="hidden" name="_wpcf7" value="47">
@@ -71,7 +86,7 @@
                                                     cols="40" rows="10"
                                                     class="wpcf7-form-control wpcf7-textarea"
                                                     aria-invalid="false"></textarea></span> </label></p>
-                        <p><input type="submit" value="Отправить"><!--<img class="ajax-loader"
+                        <p><input id="submit-but" type="submit" value="Отправить"><!--<img class="ajax-loader"
                                                                                                src="http://localhost/wpress/wp-content/plugins/contact-form-7/images/ajax-loader.gif"
                                                                                                alt="Отправка..."
                                                                                                style="visibility: hidden;">-->
@@ -85,7 +100,7 @@
             </div>
         </aside>
     </div>
-    <div class="footer-tour-select"
+    <!--<div class="footer-tour-select"
          style="     margin-top: 50px;
                      width: 80%;
                      margin-right: auto;
@@ -103,7 +118,7 @@
             Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
             consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
             viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-    </div>
+    </div>-->
 </div>
 
 </div>

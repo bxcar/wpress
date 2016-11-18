@@ -9,6 +9,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+    <script src="/wpress/wp-content/themes/sydney/js/script_for_form_button.js"></script>
     <!--    <link rel="stylesheet" href="/wpress/wp-content/themes/sydney/fancybox/jquery.fancybox.css"  />-->
     <!--    <link rel="icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
     <!--    <link rel="shortcut icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
@@ -126,7 +127,8 @@
                             <div class="textwidget">
                                 <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                                     <div class="screen-reader-response"></div>
-                                    <form id="contact-form" action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
+                                    <form id="contact-form" action="/wpress/#wpcf7-f47-o1" method="post"
+                                          class="wpcf7-form"
                                           novalidate="novalidate">
                                         <div style="display: none;">
                                             <input type="hidden" name="_wpcf7" value="47">

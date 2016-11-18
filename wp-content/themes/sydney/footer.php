@@ -200,21 +200,6 @@
 
                     <p><span>Осталось всего 7 сертификатов!</span></p>
                 </div>
-                <script>
-                    document.getElementById('contact-form').addEventListener('submit', function (evt) {
-                        var loading = document.getElementById("submit-but");
-                        loading.setAttribute("value", "");
-                        loading.setAttribute("style",
-                            "background: url(/wpress/wp-content/themes/sydney/img/post_preloader.gif) 50% 50% no-repeat #0088e7  !important;");
-                    }, false);
-//                    $(event.target).find(".wpcf7-response-output").on("DOMNodeInserted", function (event) {
-                    document.getElementById('contact-form').addEventListener('DOMNodeInserted', function (evt) {
-                        var loading = document.getElementById("submit-but");
-                        loading.setAttribute("value", "Отправить");
-                        loading.setAttribute("style",
-                            "background: #0088e7 !important;");
-                    });
-                </script>
                 <div class="sidebar-column col-md-4">
                     <aside id="text-2" class="widget widget_text"><h3 class="widget-title"
                                                                       style="text-align: center; width: 93%;">
@@ -223,7 +208,7 @@
                         <div class="textwidget">
                             <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                                 <div class="screen-reader-response"></div>
-                                <form action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
+                                <form id="contact-form-bottom" action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
                                       novalidate="novalidate">
                                     <div style="display: none;">
                                         <input type="hidden" name="_wpcf7" value="47">
@@ -241,7 +226,7 @@
                                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"></span>
-                                    <!--                        </label></p>-->
+                                    <!--                                        </label></p>-->
                                     <!--                                        <p><label> Контактный телефон (обязательно)<br>-->
                                             <span class="wpcf7-form-control-wrap tel-564"><input type="tel"
                                                                                                  style="width: 100%;"
@@ -251,7 +236,7 @@
                                                                                                  size="40"
                                                                                                  class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                                                                                                  aria-invalid="false"></span>
-                                    <!--                        </label></p>-->
+                                    <!--                                        </label></p>-->
                                     <!--                                        <p><label> Пожелания к туру<br>-->
                                             <span class="wpcf7-form-control-wrap your-message"><textarea
                                                     name="your-message"
@@ -259,7 +244,7 @@
                                                     cols="40" rows="10"
                                                     class="wpcf7-form-control wpcf7-textarea"
                                                     aria-invalid="false"></textarea></span> </label></p>
-                                    <p><input type="submit" value="Отправить"><!--<img class="ajax-loader"
+                                    <p><input id="submit-but-bottom" type="submit" value="Отправить"><!--<img class="ajax-loader"
                                                                                                src="http://localhost/wpress/wp-content/plugins/contact-form-7/images/ajax-loader.gif"
                                                                                                alt="Отправка..."
                                                                                                style="visibility: hidden;">-->

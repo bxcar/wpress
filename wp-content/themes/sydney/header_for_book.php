@@ -9,6 +9,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<!--    <script src="/wpress/wp-content/themes/sydney/js/script_for_form_button.js"></script>-->
     <script>
         window.onload = function () {
             document.getElementById('contact-form').addEventListener('submit', function (evt) {
