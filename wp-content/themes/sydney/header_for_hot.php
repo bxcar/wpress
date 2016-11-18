@@ -82,10 +82,10 @@
     </header><!-- #masthead -->
     <?php sydney_slider_template(); ?>
 
-    <div class="header-image header-image-tour-selection">
+    <div class="header-image header-image-hot-tour">
         <p class="header-on-top-image">Горящие туры</p>
         <?php sydney_header_overlay(); ?>
-        <img class="header-inner" src="<?php header_image(); ?>"
+        <img class="header-inner" src="/wpress/wp-content/themes/sydney/images/hot_tour.jpg"
              width="<?php echo esc_attr(get_custom_header()->width); ?>" alt="<?php bloginfo('name'); ?>">
     </div>
 

@@ -91,7 +91,7 @@
     <div class="header-image  header-image-special">
         <p class="header-on-top-image">Спецпредложения</p>
         <?php sydney_header_overlay(); ?>
-        <img class="header-inner" src="<?php header_image(); ?>"
+        <img class="header-inner" src="/wpress/wp-content/themes/sydney/images/special.jpg"
              width="<?php echo esc_attr(get_custom_header()->width); ?>" alt="<?php bloginfo('name'); ?>">
     </div>
 
@@ -114,7 +114,7 @@
                 <div id="fon"></div>
                 <div id="load"></div>
                 <div class="filters">
-                    <select style="margin-right: 20px;
+                    <select class="select-spec" style="margin-right: 20px;
                                   margin-left: 25px;">
                         <option selected>Выберите страну</option>
                         <option>Таиланд</option>
@@ -122,7 +122,7 @@
                         <option>Египет</option>
                         <option>Испания</option>
                     </select>
-                    <select id="price_sorta">
+                    <select class="select-spec" id="price_sorta">
                         <option selected>цена(по умолчанию)</option>
                         <option id="pricea">цена(по возрастанию)</option>
                         <option id="priced">цена(по убыванию)</option>

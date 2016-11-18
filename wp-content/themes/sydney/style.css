@@ -826,7 +826,7 @@ Header
 }
 
 .header-image-about {
-    background-image: url("/wpress/wp-content/themes/sydney/images/header_about2_1.png") !important;
+    background-image: url("/wpress/wp-content/themes/sydney/images/about.jpg") !important;
 }
 
 .header-image-special {
@@ -835,6 +835,15 @@ Header
 
 .header-image-tour-selection {
     background-image: url("/wpress/wp-content/themes/sydney/images/header_about1.jpg") !important;
+}
+.header-image-hot-tour {
+    background-image: url("/wpress/wp-content/themes/sydney/images/hot_tour.jpg") !important;
+}
+.header-image-book {
+    background-image: url("/wpress/wp-content/themes/sydney/images/book.jpg") !important;
+}
+.header-image-contacts {
+    background-image: url("/wpress/wp-content/themes/sydney/images/contacts.jpg") !important;
 }
 .header-inner {
     display: none;
@@ -4031,6 +4040,31 @@ input[type="color"]:focus {
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+    .header-on-top-image {
+        font-size: 36px !important;
+        line-height: 40px;
+    }
+    #popmake-129, #popmake-158, #popmake-166 {
+        width: 80% !important;
+        top: 10% !important;
+    }
+    #pum_popup_title_129, #pum_popup_title_158 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #popmake-129  input, #popmake-129 .pum-content>:last-child {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    #popmake-129 span {
+        margin-left: 0 !important;
+    }
+
+    #popmake-129  input[type="submit"] {
+        padding: 10px!important;
+    }
+
     .site-header img.site-logo {
         margin-top: 0;
     }
@@ -4039,7 +4073,7 @@ input[type="color"]:focus {
         margin-right: 0 !important;
     }
 
-    .tprice a:visited, a:focus {
+    .tprice a:visited, .tprice a:focus {
         color: #fff !important;
     }
     .f-text1 {
@@ -4322,10 +4356,33 @@ input[type="color"]:focus {
     .site-title {
         font-size: 22px !important;
     }
+    .page .page-wrap .content-wrapper, .single .page-wrap .content-wrapper {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
 }
 
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
+    .select-spec {
+        width: 70%;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+    }
+    .select-spec:first-child {
+        margin-bottom: 10px;
+        margin-left: 18px !important;
+    }
+    .select-spec:last-child {
+        margin-left: 18px;
+    }
+    .page .page-wrap .content-wrapper {
+        padding-left: 10px !important;
+         padding-right: 10px !important;
+    }
+    .form-descr {
+        width: 320px !important;
+    }
     .btn-menu {
         margin-left: 30px !important;
     }
@@ -5470,7 +5527,7 @@ p {
 }
 
 #popmake-129 {
-    width: 500px;
+    width: 40%;
 }
 
 #pum_popup_title_129 {
@@ -5572,4 +5629,14 @@ p {
 }
 .contacts-text-left span {
     color: #ff7300;
+}
+
+.select-spec {
+    background: #0894da;
+    color: white;
+    /*border-radius: 10px;*/
+}
+
+.select-spec:focus {
+    outline:none;
 }

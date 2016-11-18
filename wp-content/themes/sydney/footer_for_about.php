@@ -98,7 +98,7 @@
 
 </div>
 </div>
-<!--<h2 class="header-bottom-form">Мы гарантируем <span>ЛУЧШИЕ&nbsp;цены</span> на туры <!--<br/>-->-->
+<!--<h2 class="header-bottom-form">Мы гарантируем <span>ЛУЧШИЕ&nbsp;цены</span> на туры <!--<br/>-->
 <!--    в Луцке</h2>-->
 </div><!-- #content -->
 

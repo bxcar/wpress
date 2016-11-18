@@ -83,10 +83,10 @@
     </header><!-- #masthead -->
     <?php sydney_slider_template(); ?>
 
-    <div class="header-image header-image-tour-selection">
+    <div class="header-image header-image-book">
         <p class="header-on-top-image">Раннее бронирование</p>
         <?php sydney_header_overlay(); ?>
-        <img class="header-inner" src="<?php header_image(); ?>"
+        <img class="header-inner" src="/wpress/wp-content/themes/sydney/images/book.jpg"
              width="<?php echo esc_attr(get_custom_header()->width); ?>" alt="<?php bloginfo('name'); ?>">
     </div>
 

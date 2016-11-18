@@ -85,9 +85,10 @@
     <div class="header-image header-image-tour-selection">
         <p class="header-on-top-image">Подбор тура</p>
         <?php sydney_header_overlay(); ?>
-        <img class="header-inner" src="<?php header_image(); ?>"
+        <img class="header-inner" src="/wpress/wp-content/themes/sydney/images/header_about1.jpg"
              width="<?php echo esc_attr(get_custom_header()->width); ?>" alt="<?php bloginfo('name'); ?>">
     </div>
+    <!--header_image();-->
 
     <div id="content" class="page-wrap" style="padding-top: 30px; padding-bottom: 0;">
         <div class="container content-wrapper">
@@ -96,13 +97,13 @@
                     <p>[contact-form-7 id="47" title="Заполните форму"]</p>
                 </div>
 -->
-                <div class="top-form-container"
-                     style="background: url('/wpress/wp-content/themes/sydney/img/coralc2.jpg') no-repeat;
-                     background-size: 100%;
-                            width: 900px;
-                            height: 500px;
-                            margin-right: auto;
-                            margin-left: auto;">
-                </div>
+<!--                <div class="top-form-container"-->
+<!--                     style="background: url('/wpress/wp-content/themes/sydney/img/coralc2.jpg') no-repeat;-->
+<!--                     background-size: 100%;-->
+<!--                            width: 900px;-->
+<!--                            height: 500px;-->
+<!--                            margin-right: auto;-->
+<!--                            margin-left: auto;">-->
+<!--                </div>-->
 
                 
