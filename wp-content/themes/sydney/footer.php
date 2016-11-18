@@ -57,32 +57,33 @@
     <h2>ЧОМУ ВИГІДНО ВІДПОЧИВАТИ З CORAL TRAVEL</h2>
     <div class="prev-item" id="prev_item_1">
         <img src="/wpress/wp-content/themes/sydney/img/prev/v1.png" width="61" height="64">
-        <p class="title">БІЛЬШЕ 20 РОКІВ<br>
-            НА РИНКУ</p>
-        <p class="text">Міжнародний туроператор Coral Travel накопичив безцінний досвід роботи у сфері виїзного та
-            внутрішнього туризму</p>
+        <p class="title">БОЛЬШЕ 20 ЛЕТ<br>
+            НА РЫНКЕ</p>
+        <p class="text">Официальный представитель туроператора с многолетним опытом Coral Travel в Борисполе
+            предоставляет качественные услуги на рынке туризма и продолжает развиваться для вас</p>
     </div>
 
     <div class="prev-item" id="prev_item_2">
         <img src="/wpress/wp-content/themes/sydney/img/prev/v2.png" width="61" height="64">
-        <p class="title">28 КРАЇН –<br>
-            60 НАПРЯМКІВ</p>
-        <p class="text">Ми пропонуємо найкращі курорти та готелі в 28 країнах світу по більш, ніж 60 напрямках</p>
+        <p class="title">28 СТРАН –<br>
+            60 НАПРАВЛЕНИЙ</p>
+        <p class="text">Мы предлагаем туры в 28 стран и в более чем 60 различных направлений из Украины</p>
     </div>
 
     <div class="prev-item" id="prev_item_3">
         <img src="/wpress/wp-content/themes/sydney/img/prev/v3.png" width="61" height="64">
         <p class="title">233 АГЕНТСТВА<br>
-            76 МІСТ УКРАЇНИ</p>
-        <p class="text">Для поліпшення якості обслуговування клієнтів компанія розвиває власні мережі роздрібних
-            продажів</p>
+            76 ГОРОДОВ УКРАИНЫ</p>
+        <p class="text">Мы улучшаем качество предостовляемых услуг и создаем новые точки обслуживания в различных
+            городах Украины для еще большего вашего комфорта</p>
     </div>
 
     <div class="prev-item" id="prev_item_4">
         <img src="/wpress/wp-content/themes/sydney/img/prev/v4.png" width="61" height="64">
-        <p class="title">НАДІЙНІСТЬ ТА<br>
-            ЯКІСТЬ</p>
-        <p class="text">Бренд Coral Travel позиціонується на українському ринку як марка надійності та якості</p>
+        <p class="title">НАДЕЖНОСТЬ И<br>
+            КАЧЕСТВО</p>
+        <p class="text">Основываясь на главном девизе «Coral Travel» - НАДЕЖНОСТЬ, мы стремимся обеспечивать услуги
+            высокого качества и прислушиваться к вашим пожеланиям</p>
     </div>
 </div>
 <section class="team">
@@ -280,7 +281,7 @@
 
         <p class="f-text2 box">г.&nbsp;Борисполь, <br/>
             ул.&nbsp;Киевский шлях, 2/6, <br/>ТРЦ «АЕРОМОЛ»<br>
-            e-mail: coralborispol@gmail.com</p>
+            <span>e-mail:</span> coralborispol@gmail.com</p>
 
         <p class="f-text3 box">
             <a class="popmake-158 modal-link" href="#">Соглашение об обработке персональных данных.</a><br/>

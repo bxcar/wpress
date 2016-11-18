@@ -117,15 +117,9 @@
 
 </div>
 </div>
-<div class="footer-tour-select"
-     style="     background-size: 100%;
-                     background-color: #0093d0;
-                     margin-top: -20px;
-                     width: 100%;
-                     height: 100px;
-                     margin-right: auto;
-                     margin-left: auto;
-                     margin-bottom: 50px;">
+<div class="footer-tour-select">
+    <p>Есть вопросы? Звоните нам сейчас:<br>
+        067 528 2227</p>
 </div>
 </div><!-- #content -->
 
@@ -145,7 +139,7 @@
 
         <p class="f-text2 box">г.&nbsp;Борисполь, <br/>
             ул.&nbsp;Киевский шлях, 2/6, <br/>ТРЦ «АЕРОМОЛ»<br>
-            e-mail: coralborispol@gmail.com</p>
+            <span>e-mail:</span> coralborispol@gmail.com</p>
 
         <p class="f-text3 box">
             <a class="popmake-158 modal-link" href="#">Соглашение об обработке персональных данных.</a><br />

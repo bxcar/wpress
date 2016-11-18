@@ -57,7 +57,7 @@
                     <div class="col-md-8 col-sm-4 col-xs-12 header-number">
                         <!--<img src="/wpress/wp-content/themes/sydney/img/telephone_not_fill.png" width="30" height="30"
                              style="width: 21px; height: 21px; float: left; margin-right: 10px;">-->
-                        <p <!--style="overflow: hidden;-->">067 528 2227<br><span class="header-number-text">Звоните нам сейчас!</span>
+                        <p <!--style="overflow: hidden;-->">098 116 9555<br><span class="header-number-text">Звоните нам сейчас!</span>
                     </div>
                 </div>
             </div>
@@ -66,6 +66,7 @@
     <?php sydney_slider_template(); ?>
 
     <div class="header-image header-image-tour-selection">
+        <p class="header-on-top-image">Контакты</p>
         <?php sydney_header_overlay(); ?>
         <img class="header-inner" src="<?php header_image(); ?>"
              width="<?php echo esc_attr(get_custom_header()->width); ?>" alt="<?php bloginfo('name'); ?>">
@@ -85,17 +86,20 @@
                             height: 500px;
                             margin-right: auto;
                             margin-left: auto;">
-                    <div class="contcts-text-left" style="float: left; width: 35%; text-align: left;">
-                        <p>Адрес:  Борисполь, ул. Киевский Шлях, 2/6 ТРЦ Аэромолл<br>
-                            График работы: Пн-Вс с 9:00 – 20:00<br>
-                            Телефон:<br>
-                            063 211 95 55<br>
-                            099 213 95 55<br>
-                            098 116 95 55
+                    <div class="contacts-text-left">
+                        <p>Приходите к нам. Мы всегда рады нашим туристам!</p>
+                        <p><span>Адрес:</span><br>  Борисполь, ул. Киевский Шлях, 2/6 ТРЦ&nbsp;Аэромолл<br>
+                            <span>График работы:</span><br> <strong>Пн-Вс</strong> с 9:00 – 20:00<br>
+                            <span>Телефон:</span><br>
+                            <strong>063 211 95 55<br>
+                                099 213 95 55<br>
+                                    098 116 95 55<br></strong>
+                            <span>Электронная почта:</span><br>
+                            <strong>coralborispol@gmail.com</strong>
                         </p>
                     </div>
                     <div class="contcts-map-right" style="float: right;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1070.4130653706413!2d30.953160864036658!3d50.35003784647541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36be06f08aae66ff!2z0KLRg9GA0LjRgdGC0LjRh9C90LAg0LrQvtC80L_QsNC90ZbRjyDQnNCQ0JrRltCd0KLQo9CgIHwgTUFLaU5UT1VS!5e0!3m2!1sru!2sua!4v1479376264485" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.1364595532696!2d30.92083026659438!3d50.36400992402535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f2b88ab99d49d4f!2z0JDRjdGA0L7QvNC-0LvQuyDQotCg0KY!5e0!3m2!1sru!2sua!4v1479465435502" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
 

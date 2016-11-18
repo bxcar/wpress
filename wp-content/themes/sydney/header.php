@@ -9,7 +9,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <script src="/wpress/wp-content/themes/sydney/js/script_for_form_button.js"></script>
+    <script src="/wpress/wp-content/themes/sydney/js/script_for_form_button"></script>
     <!--    <link rel="stylesheet" href="/wpress/wp-content/themes/sydney/fancybox/jquery.fancybox.css"  />-->
     <!--    <link rel="icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
     <!--    <link rel="shortcut icon" href="/lp/ru/img/favicon.ico" type="image/x-icon">-->
@@ -84,7 +84,7 @@
                     <div class="col-md-8 col-sm-4 col-xs-12 header-number">
                         <!--<img src="/wpress/wp-content/themes/sydney/img/telephone_not_fill.png" width="30" height="30"
                              style="width: 21px; height: 21px; float: left; margin-right: 10px;">-->
-                        <p <!--style="overflow: hidden;-->">067 528 2227<br><span class="header-number-text">Звоните нам сейчас!</span></p>
+                        <p <!--style="overflow: hidden;-->">098 116 9555<br><span class="header-number-text">Звоните нам сейчас!</span></p>
 
                     </div>
                 </div>

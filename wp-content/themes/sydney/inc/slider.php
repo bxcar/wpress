@@ -48,6 +48,7 @@ function sydney_slider_template() {
                 if ( get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/1.png') ) {
                     echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_1', get_template_directory_uri() . '/images/1.jpg')) . ');">';
                     ?>
+                    <div class="overlay-main"></div>
                         <div class="slide-inner">
                             <div class="contain animated fadeInRightBig text-slider">
                                 <h2 class="maintitle"><?php echo esc_html($slider_title_1); ?></h2>
@@ -57,11 +58,13 @@ function sydney_slider_template() {
                         </div>
                     <?php
                     echo '</div>';
+//                    echo '<div class="overlay"></div>';
                 
                 }
                 if ( get_theme_mod('slider_image_2', get_template_directory_uri() . '/images/2.jpg') ) {
                     echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_2', get_template_directory_uri() . '/images/2.jpg')) . ');">';
                     ?>
+                    <div class="overlay-main"></div>
                         <div class="slide-inner">
                             <div class="contain animated fadeInRightBig text-slider">
                                 <h2 class="maintitle"><?php echo esc_html($slider_title_2); ?></h2>
@@ -71,6 +74,7 @@ function sydney_slider_template() {
                         </div>                   
                     <?php
                     echo '</div>';
+//                    echo '<div class="overlay"></div>';
                 }           
                 if ( get_theme_mod('slider_image_3') ) {
                     echo '<div class="slide-item" style="background-image:url(' . esc_url(get_theme_mod('slider_image_3')) . ');">';
