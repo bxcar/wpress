@@ -122,10 +122,10 @@
                         <option>Египет</option>
                         <option>Испания</option>
                     </select>
-                    <select class="select-spec" id="price_sorta">
+                    <select class="select-spec" id="price_sort">
                         <option selected>цена(по умолчанию)</option>
-                        <option id="pricea">цена(по возрастанию)</option>
-                        <option id="priced">цена(по убыванию)</option>
+                        <option value="price_sorta">цена(по возрастанию)</option>
+                        <option value="price_sortb">цена(по убыванию)</option>
                     </select>
                 </div>
 

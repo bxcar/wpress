@@ -49,7 +49,7 @@ AND pmet.meta_value = p.id";
                 $sql .= " ORDER BY length(t.name), t.name ASC"; //t.name
 //            $sql .= " ORDER BY p.post_title ASC";
             } else if ($id == 'price_sortb') {
-                $sql .= " ORDER BY t.name DESC";
+                $sql .= " ORDER BY cast(t.name as unsigned) DESC";
 //            $sql .= " ORDER BY p.post_title DESC";
             }
         }
@@ -58,7 +58,7 @@ AND pmet.meta_value = p.id";
                 $sql1 .= " ORDER BY length(t.name), t.name ASC";
 //            $sql .= " ORDER BY p.post_title ASC";
             } else if ($id == 'price_sortb') {
-                $sql1 .= " ORDER BY t.name DESC";
+                $sql1 .= " ORDER BY cast(t.name as unsigned) DESC";
 //            $sql .= " ORDER BY p.post_title DESC";
             }
         }

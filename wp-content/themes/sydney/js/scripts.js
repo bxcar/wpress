@@ -3055,8 +3055,9 @@ jQuery(document).ready(function() {
         var id = $(this).attr(id);
         alert("sfmm");
     });*/
-    jQuery(document).on('click','select', function(){
-        var id = jQuery(this).attr("id");
+    jQuery(document).on('change', 'select', function(){
+        var id = jQuery('#price_sort').val();
+        // var id = jQuery(this).attr("id");
         // alert(id);
         jQuery("#fon").css({'display':'block'});
         jQuery("#load").fadeIn(1000, function () {
