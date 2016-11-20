@@ -3050,18 +3050,18 @@
     }, d
 });
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
     /*$(".filters").click(function () {
         var id = $(this).attr(id);
         alert("sfmm");
     });*/
-    $(document).on('click','select', function(){
-        var id = $(this).attr("id");
+    jQuery(document).on('click','select', function(){
+        var id = jQuery(this).attr("id");
         // alert(id);
-        $("#fon").css({'display':'block'});
-        $("#load").fadeIn(1000, function () {
-            $.ajax({
-                url: '/wpress/wp-content/themes/sydney/handler.php',
+        jQuery("#fon").css({'display':'block'});
+        jQuery("#load").fadeIn(1000, function () {
+            jQuery.ajax({
+                url: '/wpress/wp-content/themes/sydney/content.php',
                 data: 'sort_id='+id,
                 type: 'get',
                 // dataType: 'json',
@@ -3073,10 +3073,10 @@ $(document).ready(function() {
 
                     }*/
                     // alert("hello");
-                    $("#primary").html(html).hide().fadeIn(2000);
+                    jQuery("#primary").html(html).hide().fadeIn(2000);
                     // $("article").attr("id","post-71");
-                    $("#fon").css({'display':'none'});
-                    $("#load").fadeOut(500);
+                    jQuery("#fon").css({'display':'none'});
+                    jQuery("#load").fadeOut(500);
                 },
                 error: function (html) {
                     alert("Error");
