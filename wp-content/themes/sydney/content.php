@@ -72,15 +72,49 @@ AND r.object_id=p.post_parent";
     if ($_GET['sort_id']) {
         $id = strip_tags($_GET['sort_id']);
         $goods = get_goods($db, $id);
-        ?><pre><?php print_r($goods);?></pre><?php
+//        ?><!--<pre>--><?php //print_r($goods);?><!--</pre>--><?php
 //    exit(json_encode($goods));
         foreach ($goods as $item) {
-            foreach ($item as $value) {
                 ?>
-                <?= $value ?>
+            <article class="post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <div class="entry-thumb">
+            <span class="custom-size"><img src="<?=$item['guid']?>" </span>
+                    </div>
+
+                <header class="entry-header">
+                    <h2 class="title-post"><span id="country-title" style="color: #0088e7;" rel="bookmark"><?=$item['post_title']?> </span></h2>
+
+                    <!--		--><?php //if ( 'post' == get_post_type() && get_theme_mod('hide_meta_index') != 1 ) : ?>
+                    <!--		<div class="meta-post">-->
+                    <!--			--><?php //sydney_posted_on(); ?>
+                    <!--		</div><!-- .entry-meta -->
+                    <!--		--><?php //endif; ?>
+                </header><!-- .entry-header -->
+
+                <div class="entry-post">
+                        <p><?=$item['post_content']?></p>
+                </div><!-- .entry-post -->
+
+                <footer class="entry-footer">
+                    <?php //sydney_entry_footer(); ?>
+                    <div class="tprice"> <!-- for tags the_tags() --> <!-- for date the_date('d.m.y') -->
+                        <!--fot link to record the_permalink()-->
+                        <!-- для сокращенной записи the_excerpt();-->
+                        <div>от <strong><b><?=$item['name']?><style>b a {color: #0088e7;}</style></b></strong> $</div>
+                        <img style="display: none;" id="im" src="/wpress/wp-content/themes/sydney/img/icons/privilege2.png">
+                        <a rel="fancybox" href="#" class="popmake-129 btnprice modal-link product-link"
+                           data-order="AMC Royal Hotel 5*" country="Египет">Заказать</a>
+                    </div>
+                </footer><!-- .entry-footer -->
+            </article><!-- #post-## -->
+                    <!--<p style="background: #efe;">
+                        <span><?/*=$item['post_title']*/?></span><br>
+                        <span><?/*=$item['post_content']*/?></span><br>
+                        <span><?/*=$item['name']*/?></span><br>
+                        <span><?/*=$item['guid']*/?></span>
+                    </p>-->
                 <?php
 //            printf("<p>hello %s var</p>", "$a = 4");
-            }
         }
         exit;
     } else {
@@ -133,4 +167,3 @@ AND r.object_id=p.post_parent";
         </div>
     </footer><!-- .entry-footer -->
 </article><!-- #post-## -->
-
