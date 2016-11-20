@@ -31,13 +31,15 @@ AND r.object_id=p.id
 AND p.post_status != 'trash'";
 
         $sql1 = "SELECT p.guid FROM wp_posts p, wp_terms t, wp_term_taxonomy tx, wp_term_relationships r, wp_postmeta pmet
-WHERE p.post_type = 'attachment'
-AND t.term_id=tx.term_id 
+WHERE p.post_status != 'trash'
+AND p.post_type = 'attachment'
+AND t.term_id=tx.term_id
 AND tx.taxonomy='post_tag'
-AND tx.term_taxonomy_id=r.term_taxonomy_id 
+AND tx.term_taxonomy_id=r.term_taxonomy_id
 AND r.object_id=p.post_parent
-AND p.post_status != 'trash'
 AND pmet.meta_value = p.id";
+        /*AND r.object_id=p.post_parent
+    AND pmet.meta_value = p.id*/
 
         /*AND pmet.meta_key = '_wp_attached_file'
     AND pmet.post_id = p.id*/
