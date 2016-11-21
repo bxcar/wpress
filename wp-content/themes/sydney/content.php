@@ -43,6 +43,20 @@ AND pmet.meta_value = p.id";
 
         /*AND pmet.meta_key = '_wp_attached_file'
     AND pmet.post_id = p.id*/
+        $sql_for_counry_title_and_other = "SELECT p.post_title, p.post_content, t.name FROM wp_posts p, wp_terms t, wp_term_taxonomy tx, wp_term_relationships r
+WHERE t.term_id=tx.term_id 
+AND tx.taxonomy='post_tag' 
+AND tx.term_taxonomy_id=r.term_taxonomy_id 
+AND r.object_id=p.id
+AND p.post_status != 'trash'";
+        $sql_for_country_image = "SELECT p.guid FROM wp_posts p, wp_terms t, wp_term_taxonomy tx, wp_term_relationships r, wp_postmeta pmet
+WHERE p.post_status != 'trash'
+AND p.post_type = 'attachment'
+AND t.term_id=tx.term_id
+AND tx.taxonomy='post_tag'
+AND tx.term_taxonomy_id=r.term_taxonomy_id
+AND r.object_id=p.post_parent
+AND pmet.meta_value = p.id";
 
         if ($id) {
             if ($id == 'price_sorta') {
@@ -51,15 +65,38 @@ AND pmet.meta_value = p.id";
             } else if ($id == 'price_sortb') {
                 $sql .= " ORDER BY cast(t.name as unsigned) DESC";
 //            $sql .= " ORDER BY p.post_title DESC";
+            } else if ($id == 'thailand') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Таиланд'";
+            } else if ($id == 'uae') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'ОАЕ'";
+            } else if ($id == 'egypt') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Египет'";
             } else if ($id == 'spain') {
-                $sql = "SELECT p.post_title, p.post_content, t.name FROM wp_posts p, wp_terms t, wp_term_taxonomy tx, wp_term_relationships r
-WHERE t.term_id=tx.term_id 
-AND tx.taxonomy='post_tag' 
-AND tx.term_taxonomy_id=r.term_taxonomy_id 
-AND r.object_id=p.id
-AND p.post_status != 'trash'
-AND p.post_title = 'Испания'";
-//            $sql .= " ORDER BY p.post_title DESC";
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Испания'";
+            } else if ($id == 'usa') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'США'";
+            } else if ($id == 'canada') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Канада'";
+            } else if ($id == 'germany') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Германия'";
+            } else if ($id == 'france') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Франция'";
+            } else if ($id == 'mexico') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Мексика'";
+            } else if ($id == 'brasil') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Бразилия'";
+            } else if ($id == 'norway') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Норвегия'";
+            } else if ($id == 'dominican') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Доминикана'";
+            } else if ($id == 'maldives') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Мальдивы'";
+            } else if ($id == 'tanzania') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Танзания'";
+            } else if ($id == 'srilanka') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Шри-Ланка'";
+            } else if ($id == 'india') {
+                $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Индия'";
             }
         }
         if ($id) {
@@ -69,19 +106,40 @@ AND p.post_title = 'Испания'";
             } else if ($id == 'price_sortb') {
                 $sql1 .= " ORDER BY cast(t.name as unsigned) DESC";
 //            $sql .= " ORDER BY p.post_title DESC";
+            } else if ($id == 'thailand') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Таиланд' AND po.id = p.post_parent)";
+            } else if ($id == 'uae') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'ОАЕ' AND po.id = p.post_parent)";
+            } else if ($id == 'egypt') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Египет' AND po.id = p.post_parent)";
             } else if ($id == 'spain') {
-                $sql1 = "SELECT p.guid FROM wp_posts p, wp_terms t, wp_term_taxonomy tx, wp_term_relationships r, wp_postmeta pmet
-WHERE p.post_status != 'trash'
-AND p.post_type = 'attachment'
-AND t.term_id=tx.term_id
-AND tx.taxonomy='post_tag'
-AND tx.term_taxonomy_id=r.term_taxonomy_id
-AND r.object_id=p.post_parent
-AND pmet.meta_value = p.id
-AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Испания' AND po.id = p.post_parent)";
-//            $sql .= " ORDER BY p.post_title DESC";
-//                AND length(p.post_parent) =  length(p.id-3)
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Испания' AND po.id = p.post_parent)";
+            } else if ($id == 'usa') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'США' AND po.id = p.post_parent)";
+            } else if ($id == 'canada') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Канада' AND po.id = p.post_parent)";
+            } else if ($id == 'germany') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Германия' AND po.id = p.post_parent)";
+            } else if ($id == 'france') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Франция' AND po.id = p.post_parent)";
+            } else if ($id == 'mexico') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Мексика' AND po.id = p.post_parent)";
+            } else if ($id == 'brasil') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Бразилия' AND po.id = p.post_parent)";
+            } else if ($id == 'norway') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Норвегия' AND po.id = p.post_parent)";
+            } else if ($id == 'dominican') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Доминикана' AND po.id = p.post_parent)";
+            } else if ($id == 'maldives') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Мальдивы' AND po.id = p.post_parent)";
+            } else if ($id == 'tanzania') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Танзания' AND po.id = p.post_parent)";
+            } else if ($id == 'srilanka') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Шри-Ланка' AND po.id = p.post_parent)";
+            } else if ($id == 'india') {
+                $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Индия' AND po.id = p.post_parent)";
             }
+            //AND length(p.post_parent) =  length(p.id-3)
         }
         $goods = array();
         $goods_img = array();

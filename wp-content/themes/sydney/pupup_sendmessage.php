@@ -8,7 +8,7 @@ $name  = $_POST['name'];
 
 // Формирование заголовка письма
 
-$subject  = '[Новая заявка - Макинтур ЛП Луцк]';
+$subject  = '[Новая заявка - Coral Travel г. Борисполь]';
 //$headers  = "From: ".$name." \r\n";
 //$headers .= "Reply-To: ". strip_tags($name) . "\r\n";
 //$headers .= "MIME-Version: 1.0\r\n";
@@ -16,7 +16,7 @@ $subject  = '[Новая заявка - Макинтур ЛП Луцк]';
 
 // Формирование тела письма
 
-$msg = "Новая заявка - Макинтур ЛП Луцк\r\n";
+$msg = "Новая заявка - Coral Travel г. Борисполь\r\n";
 $msg .= "Имя: ".$name."\r\n";
 $msg .= "Телефон: ".$phone."\r\n";
 

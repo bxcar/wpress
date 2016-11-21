@@ -84,8 +84,7 @@
                     <div class="col-md-8 col-sm-4 col-xs-12 header-number">
                         <!--<img src="/wpress/wp-content/themes/sydney/img/telephone_not_fill.png" width="30" height="30"
                              style="width: 21px; height: 21px; float: left; margin-right: 10px;">-->
-                        <p <!--style="overflow: hidden;-->">098 116 9555<br><span class="header-number-text">Звоните нам сейчас!</span></p>
-
+                        <p <!--style="overflow: hidden;-->">098 116 9555<br><a href="#"><span class="popmake-form header-number-text">Закажите обратный звонок</span></a></p>
                     </div>
                 </div>
             </div>
@@ -128,8 +127,7 @@
                                 <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                                     <div class="screen-reader-response"></div>
                                     <form id="contact-form" action="/wpress/#wpcf7-f47-o1" method="post"
-                                          class="wpcf7-form"
-                                          novalidate="novalidate">
+                                          class="wpcf7-form">
                                         <div style="display: none;">
                                             <input type="hidden" name="_wpcf7" value="47">
                                             <input type="hidden" name="_wpcf7_version" value="4.5.1">
@@ -148,7 +146,7 @@
                                                                                                    aria-invalid="false"></span>
                                         <!--                                        </label></p>-->
                                         <!--                                        <p><label> Контактный телефон (обязательно)<br>-->
-                                            <span class="wpcf7-form-control-wrap tel-564"><input type="tel"
+                                            <span class="wpcf7-form-control-wrap tel-564"><input required type="tel"
                                                                                                  style="width: 100%;"
                                                                                                  name="tel-564"
                                                                                                  placeholder="Контактный телефон*"
@@ -181,4 +179,48 @@
                 </div>
                 <h2 id="goto-from-top-button" class="tour-header">Лучшие Цены на&nbsp;Туры по&nbsp;направлениям</h2>
 
-                
+                <!--<div class="textwidget">
+                    <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
+                        <div class="screen-reader-response"></div>
+                        <form id="contact-form" action="/wpress/#wpcf7-f47-o1" method="post"
+                              class="wpcf7-form"
+                              novalidate="novalidate">
+                            <div style="display: none;">
+                                <input type="hidden" name="_wpcf7" value="47">
+                                <input type="hidden" name="_wpcf7_version" value="4.5.1">
+                                <input type="hidden" name="_wpcf7_locale" value="ru_RU">
+                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f47-o1">
+                                <input type="hidden" name="_wpnonce" value="3f027fa8db">
+                            </div>
+                                            <span style="width: 100%; margin-left: 0;" class="wpcf7-form-control-wrap your-name"><input type="text"
+                                                                                                   style="width: 100%;
+                                                                                                   margin-bottom: 30px;
+                                                                                                   margin-left: 0;
+                                                                                                   margin-top: 30px;"
+                                                                                                   name="your-name"
+                                                                                                   placeholder="Ваше имя*"
+                                                                                                   value="" size="40"
+                                                                                                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                                   aria-required="true"
+                                                                                                   aria-invalid="false"></span>
+                                            <span style="width: 100%; margin-left: 0;" class="wpcf7-form-control-wrap tel-564"><input required type="tel"
+                                                                                                 style="width: 100%;
+                                                                                                 margin-left: 0;"
+                                                                                                 name="tel-564"
+                                                                                                 placeholder="Контактный телефон*"
+                                                                                                 value=""
+                                                                                                 size="40"
+                                                                                                 class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
+                                                                                                 aria-invalid="false"></span>
+
+                            <input class="wpcf7-form-control-wrap" style="width: 100%;
+                                                                                                   margin-bottom: 0;
+                                                                                                   margin-left: 0;
+                                                                                                   margin-top: 0;"
+                                   id="submit-but" type="submit" value="Отправить">
+                            <div class="wpcf7-response-output wpcf7-display-none"></div>
+                            <p style="margin-left: 0; width: 100%;">Відправляючи форму в надаєте згоду на обробку персональних даних згідно
+                                Закону України «Про захист персональних даних»</p>
+                        </form>
+                    </div>
+                </div>-->

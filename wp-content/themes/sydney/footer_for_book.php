@@ -50,8 +50,7 @@
             <div class="textwidget">
                 <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                     <div class="screen-reader-response"></div>
-                    <form id="contact-form" action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
-                          novalidate="novalidate">
+                    <form id="contact-form" action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form">
                         <div style="display: none;">
                             <input type="hidden" name="_wpcf7" value="47">
                             <input type="hidden" name="_wpcf7_version" value="4.5.1">
@@ -70,7 +69,7 @@
                                                                                                    aria-invalid="false"></span>
                         <!--                                        </label></p>-->
                         <!--                                        <p><label> Контактный телефон (обязательно)<br>-->
-                                            <span class="wpcf7-form-control-wrap tel-564"><input type="tel"
+                                            <span class="wpcf7-form-control-wrap tel-564"><input required type="tel"
                                                                                                  style="width: 100%;"
                                                                                                  name="tel-564"
                                                                                                  placeholder="Контактный телефон*"
@@ -119,7 +118,7 @@
 </div>
 <div class="footer-tour-select">
     <p>Есть вопросы? Звоните нам сейчас:<br>
-        067 528 2227</p>
+        098 116 9555</p>
 </div>
 </div><!-- #content -->
 

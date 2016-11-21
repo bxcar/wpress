@@ -54,7 +54,7 @@
 </div>-->
 
 <div class="prev">
-    <h2>ЧОМУ ВИГІДНО ВІДПОЧИВАТИ З CORAL TRAVEL</h2>
+    <h2>ПОЧЕМУ ВЫГОДНО ОТДЫХАТЬ С CORAL TRAVEL</h2>
     <div class="prev-item" id="prev_item_1">
         <img src="/wpress/wp-content/themes/sydney/img/prev/v1.png" width="61" height="64">
         <p class="title">БОЛЬШЕ 20 ЛЕТ<br>
@@ -174,7 +174,7 @@
     <img id="palmleft" src="/wpress/wp-content/themes/sydney/img/palmleft.png">
     <div class="grid">
         <p class="telephone2"><span>Есть вопрос по отдыху? С&nbsp;удовольствием поможем:</span>
-            +38(068) 528 2227 </p>
+            +38(098) 116 9555 </p>
         <h3> Время обработки заявок: </h3>
         <p class="dates">Пн-Пт: 10.00 - 19.00<br/>
             Сб: 10.00 - 17.00<br/>
@@ -209,8 +209,7 @@
                         <div class="textwidget">
                             <div role="form" class="wpcf7" id="wpcf7-f47-o1" lang="ru-RU" dir="ltr">
                                 <div class="screen-reader-response"></div>
-                                <form id="contact-form-bottom" action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form"
-                                      novalidate="novalidate">
+                                <form id="contact-form-bottom" action="/wpress/#wpcf7-f47-o1" method="post" class="wpcf7-form">
                                     <div style="display: none;">
                                         <input type="hidden" name="_wpcf7" value="47">
                                         <input type="hidden" name="_wpcf7_version" value="4.5.1">
@@ -229,7 +228,7 @@
                                                                                                    aria-invalid="false"></span>
                                     <!--                                        </label></p>-->
                                     <!--                                        <p><label> Контактный телефон (обязательно)<br>-->
-                                            <span class="wpcf7-form-control-wrap tel-564"><input type="tel"
+                                            <span class="wpcf7-form-control-wrap tel-564"><input required type="tel"
                                                                                                  style="width: 100%;"
                                                                                                  name="tel-564"
                                                                                                  placeholder="Контактный телефон*"
