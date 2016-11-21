@@ -116,7 +116,7 @@
                 <div class="filters">
                     <select id="country-select" class="select-spec" style="margin-right: 20px;
                                   margin-left: 25px;">
-                        <option selected>Выберите страну</option>
+                        <option style="display: none;" value="country-default" disabled selected>Выберите страну</option>
                         <option value="thailand">Таиланд</option>
                         <option value="uae">ОАЕ</option>
                         <option value="egypt">Египет</option>
@@ -135,7 +135,7 @@
                         <option value="india">Индия</option>
                     </select>
                     <select class="select-spec" id="price_sort">
-                        <option selected>цена(по умолчанию)</option>
+                        <option style="display: none;" value="price-default" disabled selected>цена(по умолчанию)</option>
                         <option value="price_sorta">цена(по возрастанию)</option>
                         <option value="price_sortb">цена(по убыванию)</option>
                     </select>

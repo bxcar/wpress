@@ -3054,9 +3054,12 @@ jQuery(document).ready(function () {
      var id = $(this).attr(id);
      alert("sfmm");
      });*/
+    // jQuery('#price_sort').find('option:not(:disabled)');
     jQuery(document).on('change', 'select', function () {
         var detect = jQuery(this).attr("id");
         if (detect == "price_sort") {
+            jQuery('#country-select').val('country-default');
+
             var id = jQuery('#price_sort').val();
             jQuery("#fon").css({'display': 'block'});
             jQuery("#load").fadeIn(1000, function () {
@@ -3085,6 +3088,9 @@ jQuery(document).ready(function () {
             });
         }
         else {
+
+            jQuery('#price_sort').val('price-default');
+
             id = jQuery('#country-select').val();
             jQuery("#fon").css({'display': 'block'});
             jQuery("#load").fadeIn(1000, function () {
