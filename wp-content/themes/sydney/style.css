@@ -4616,7 +4616,7 @@ input[type="color"]:focus {
     background-color: transparent;
     transition: 0.33s;
 }
-.tprice a:visited {
+.tprice a:visited, tprice a:focus {
     color: #fff;
 }
 
@@ -5463,6 +5463,7 @@ p {
 
 #load {
     background: url('/wpress/wp-content/themes/sydney/img/ajax-loader.gif') no-repeat;
+    /*background-size: 50%;*/
     position: fixed;
     left: 44%;
     top: 50%;

@@ -86,6 +86,6 @@ if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
-require_once(ABSPATH . 'wp-settings.php');
-define( 'WP_HOME', 'http://192.168.0.101/wpress' );
-define( 'WP_SITEURL', 'http://192.168.0.101/wpress' );
+require_once(ABSPATH . 'wp-settings.php'); 
+define( 'WP_HOME', 'http://192.168.0.98/wpress' ); //101
+define( 'WP_SITEURL', 'http://192.168.0.98/wpress' );

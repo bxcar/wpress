@@ -114,13 +114,25 @@
                 <div id="fon"></div>
                 <div id="load"></div>
                 <div class="filters">
-                    <select class="select-spec" style="margin-right: 20px;
+                    <select id="country-select" class="select-spec" style="margin-right: 20px;
                                   margin-left: 25px;">
                         <option selected>Выберите страну</option>
-                        <option>Таиланд</option>
-                        <option>ОАЕ</option>
-                        <option>Египет</option>
-                        <option>Испания</option>
+                        <option value="thailand">Таиланд</option>
+                        <option value="uae">ОАЕ</option>
+                        <option value="egypt">Египет</option>
+                        <option value="spain">Испания</option>
+                        <option value="usa">США</option>
+                        <option value="canada">Канада</option>
+                        <option value="germany">Германия</option>
+                        <option value="france">Франция</option>
+                        <option value="mexico">Мексика</option>
+                        <option value="brasil">Бразилия</option>
+                        <option value="norway">Норвегия</option>
+                        <option value="dominican">Доминикана</option>
+                        <option value="maldives">Мальдивы</option>
+                        <option value="tanzania">Танзания</option>
+                        <option value="srilanka">Шри-Ланка</option>
+                        <option value="india">Индия</option>
                     </select>
                     <select class="select-spec" id="price_sort">
                         <option selected>цена(по умолчанию)</option>

@@ -3049,41 +3049,69 @@
         })
     }, d
 });
-
-jQuery(document).ready(function() {
+jQuery(document).ready(function () {
     /*$(".filters").click(function () {
-        var id = $(this).attr(id);
-        alert("sfmm");
-    });*/
-    jQuery(document).on('change', 'select', function(){
-        var id = jQuery('#price_sort').val();
-        // var id = jQuery(this).attr("id");
-        // alert(id);
-        jQuery("#fon").css({'display':'block'});
-        jQuery("#load").fadeIn(1000, function () {
-            jQuery.ajax({
-                url: '/wpress/wp-content/themes/sydney/content.php',
-                data: 'sort_id='+id,
-                type: 'get',
-                // dataType: 'json',
-                success: function (html) {
-                    // alert(html);
-                    /*$("#primary").html('');
-                    for(value in html) {
-                        $("#primary").append(html[value]);
+     var id = $(this).attr(id);
+     alert("sfmm");
+     });*/
+    jQuery(document).on('change', 'select', function () {
+        var detect = jQuery(this).attr("id");
+        if (detect == "price_sort") {
+            var id = jQuery('#price_sort').val();
+            jQuery("#fon").css({'display': 'block'});
+            jQuery("#load").fadeIn(1000, function () {
+                jQuery.ajax({
+                    url: '/wpress/wp-content/themes/sydney/content.php',
+                    data: 'sort_id=' + id,
+                    type: 'get',
+                    // dataType: 'json',
+                    success: function (html) {
+                        // alert(html);
+                        /*$("#primary").html('');
+                         for(value in html) {
+                         $("#primary").append(html[value]);
 
-                    }*/
-                    // alert("hello");
-                    jQuery("#primary").html(html).hide().fadeIn(2000);
-                    // $("article").attr("id","post-71");
-                    jQuery("#fon").css({'display':'none'});
-                    jQuery("#load").fadeOut(500);
-                },
-                error: function (html) {
-                    alert("Error");
-                }
+                         }*/
+                        // alert("hello");
+                        jQuery("#primary").html(html).hide().fadeIn(2000);
+                        // $("article").attr("id","post-71");
+                        jQuery("#fon").css({'display': 'none'});
+                        jQuery("#load").fadeOut(500);
+                    },
+                    error: function (html) {
+                        alert("Error");
+                    }
+                });
             });
-        });
+        }
+        else {
+            id = jQuery('#country-select').val();
+            jQuery("#fon").css({'display': 'block'});
+            jQuery("#load").fadeIn(1000, function () {
+                jQuery.ajax({
+                    url: '/wpress/wp-content/themes/sydney/content.php',
+                    data: 'sort_id=' + id,
+                    type: 'get',
+                    // dataType: 'json',
+                    success: function (html) {
+                        // alert(html);
+                        /*$("#primary").html('');
+                         for(value in html) {
+                         $("#primary").append(html[value]);
+
+                         }*/
+                        // alert("hello");
+                        jQuery("#primary").html(html).hide().fadeIn(2000);
+                        // $("article").attr("id","post-71");
+                        jQuery("#fon").css({'display': 'none'});
+                        jQuery("#load").fadeOut(500);
+                    },
+                    error: function (html) {
+                        alert("Error");
+                    }
+                });
+            });
+        }
     });
 });
 

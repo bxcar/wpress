@@ -51,6 +51,15 @@ AND pmet.meta_value = p.id";
             } else if ($id == 'price_sortb') {
                 $sql .= " ORDER BY cast(t.name as unsigned) DESC";
 //            $sql .= " ORDER BY p.post_title DESC";
+            } else if ($id == 'spain') {
+                $sql = "SELECT p.post_title, p.post_content, t.name FROM wp_posts p, wp_terms t, wp_term_taxonomy tx, wp_term_relationships r
+WHERE t.term_id=tx.term_id 
+AND tx.taxonomy='post_tag' 
+AND tx.term_taxonomy_id=r.term_taxonomy_id 
+AND r.object_id=p.id
+AND p.post_status != 'trash'
+AND p.post_title = 'Испания'";
+//            $sql .= " ORDER BY p.post_title DESC";
             }
         }
         if ($id) {
@@ -60,6 +69,18 @@ AND pmet.meta_value = p.id";
             } else if ($id == 'price_sortb') {
                 $sql1 .= " ORDER BY cast(t.name as unsigned) DESC";
 //            $sql .= " ORDER BY p.post_title DESC";
+            } else if ($id == 'spain') {
+                $sql1 = "SELECT p.guid FROM wp_posts p, wp_terms t, wp_term_taxonomy tx, wp_term_relationships r, wp_postmeta pmet
+WHERE p.post_status != 'trash'
+AND p.post_type = 'attachment'
+AND t.term_id=tx.term_id
+AND tx.taxonomy='post_tag'
+AND tx.term_taxonomy_id=r.term_taxonomy_id
+AND r.object_id=p.post_parent
+AND pmet.meta_value = p.id
+AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Испания' AND po.id = p.post_parent)";
+//            $sql .= " ORDER BY p.post_title DESC";
+//                AND length(p.post_parent) =  length(p.id-3)
             }
         }
         $goods = array();
