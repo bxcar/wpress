@@ -228,7 +228,7 @@ AND pmet.meta_value = p.id";
         <?php if ((get_theme_mod('full_content_home') == 1 && is_home()) || (get_theme_mod('full_content_archives') == 1 && is_archive())) : ?>
             <?php the_content(); ?>
         <?php else : ?>
-            <?php the_excerpt(); ?>
+            <?php the_content(); ?> <!--the_excerpt();-->
         <?php endif; ?>
 
         <?php

@@ -283,7 +283,8 @@ Content
 
 .entry-footer {
     clear: left;
-    margin-top: 25px;
+    /*margin-top: 25px;*/
+    margin-top: 5px;
 }
 
 .page-links {
@@ -1594,7 +1595,8 @@ Blog
     /*padding-top: 50px;*/
     padding-bottom: 10px;
     /*margin-right: 10px;*/
-    height: 350px;
+    /*height: 350px;*/
+    height: 400px;
     /**/
     margin: 1% 1% 1% 1%;
     /*width: 277px;*/

@@ -9,7 +9,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <script>
+    <!--<script>
         window.onload = function () {
             document.getElementById('contact-form').addEventListener('submit', function (evt) {
                 var loading = document.getElementById("submit-but");
@@ -25,7 +25,8 @@
                     "background: #0088e7 !important;");
             });
         }
-    </script>
+    </script>-->
+    <script src="/wpress/wp-content/themes/sydney/js/script_for_form_button_footer.js"></script>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
