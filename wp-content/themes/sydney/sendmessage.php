@@ -1,7 +1,7 @@
 <?php
 
-//$sendto  = 'seo@makintour.com, shakrov@ukr.net, marketing@makintour.com'; //Адреса, куда будут приходить письма
-$sendto  = 'malanchukdima@mail.ru'; //Адреса, куда будут приходить письма
+$sendto  = 'seo@makintour.com, coralborispol@gmail.com'; //Адреса, куда будут приходить письма
+//$sendto  = 'malanchukdima@mail.ru'; //Адреса, куда будут приходить письма
 
 $phone  = $_POST['phone'];
 $name  = $_POST['name'];
@@ -11,7 +11,7 @@ $source = $_POST['source'];
 
 // Формирование заголовка письма
 
-$subject  = '[Новая заявка - Макинтур ЛП Луцк]';
+$subject  = '[Новая заявка - Coral Travel Борисполь]';
 $headers  = "From: ".$name." \r\n";
 $headers .= "Reply-To: ". strip_tags($name) . "\r\n";
 $headers .= "MIME-Version: 1.0\r\n";

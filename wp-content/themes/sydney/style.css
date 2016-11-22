@@ -5601,12 +5601,16 @@ input[type="color"]:focus {
     text-align: center;
     display: inline-block !important;
     vertical-align: top;
-    /*width: 290px;*/
-    width: 48% !important;
+    width: 290px;
+    /*width: 48% !important;*/
     padding-right: 14px;
     padding-left: 12px;
     margin-bottom: 20px;
 }
+
+/*.prev-item-about {
+    width: 48% !important;
+}*/
 
 .prev .prev-item p.title {
     color: #0093d0;
@@ -5704,7 +5708,7 @@ p {
 
 .about-prev div {
     display: block !important;
-    width: auto !important;
+    width: 48% !important;
 }
 
 .about-prev img {

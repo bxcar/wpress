@@ -7,7 +7,8 @@
 if ($_GET['sort_id']) {
     /*function connect_db()
     {*/
-    $db = mysqli_connect('localhost', 'root', 'root', 'data_base_mk');
+    require "../../../wp-config.php";
+    $db = mysqli_connect('localhost', DB_USER, DB_PASSWORD, DB_NAME);
     if (!$db) {
         exit('Error' . mysqli_error($db));
     }
