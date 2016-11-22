@@ -50,7 +50,7 @@
 
 <div class="prev about-prev">
     <h2>Принципы работы компании</h2>
-    <div class="prev-item" id="prev_item_1">
+    <div class="prev-item prev-item-about" id="prev_item_1">
         <img src="/wpress/wp-content/themes/sydney/img/icons_about/quality.png" width="61" height="64">
         <p class="title">Качество.</p>
         <p class="text">Мы не перестаем работать над улучшением уровня предлагаемых услуг, что бы
@@ -58,28 +58,28 @@
             и совершенствуют знания о различных направлениях.</p>
     </div>
 
-    <div class="prev-item" id="prev_item_2">
+    <div class="prev-item prev-item-about" id="prev_item_2">
         <img src="/wpress/wp-content/themes/sydney/img/icons_about/form.png" width="61" height="64">
         <p class="title">Ответственность.</p>
         <p class="text">Наша компания своевременно и качественно выполняет взятые на себя обязательства и гарантирует
             реализацию своего главного кредо – Надежность.</p>
     </div>
 
-    <div class="prev-item" id="prev_item_3">
+    <div class="prev-item prev-item-about" id="prev_item_3">
         <img src="/wpress/wp-content/themes/sydney/img/icons_about/bugs_work.png" width="61" height="64">
         <p class="title">Работа над ошибками.</p>
         <p class="text">Мы открыты к диалогу и будем рады услышать все ваши замечания и пожелания.
             Мы хотим становиться лучше для вас!</p>
     </div>
 
-    <div class="prev-item" id="prev_item_4">
+    <div class="prev-item prev-item-about" id="prev_item_4">
         <img src="/wpress/wp-content/themes/sydney/img/icons_about/relevance.png" width="61" height="64">
         <p class="title">Актуальность.</p>
         <p class="text">Компания «Coral Travel» следит за обновлениями баз отелей и рейсов и предлагает вам самые
             свежие и актуальные варианты. Мы подберем уникальный тур согласно вашим пожеланиям.</p>
     </div>
 
-    <div class="prev-item" id="prev_item_4">
+    <div class="prev-item prev-item-about" id="prev_item_4">
         <img src="/wpress/wp-content/themes/sydney/img/icons_about/loyalty.png" width="61" height="64">
         <p class="title">Лояльность по отношению к нашим клиентам.</p>
         <p class="text">Менеджеры нашей компании постараются найти для вас самый выгодный и оптимальный тур,

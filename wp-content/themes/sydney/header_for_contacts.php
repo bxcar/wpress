@@ -21,6 +21,41 @@
     <?php endif; ?>
 
     <?php wp_head(); ?>
+    <!-- Facebook Pixel Code -->
+
+    <script>
+
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+
+        fbq('init', '129477284107022', {
+
+            em: 'insert_email_variable,'
+
+        });
+
+        fbq('track', 'PageView');
+
+    </script>
+
+    <noscript><img height="1" width="1" style="display:none"
+
+                   src="https://www.facebook.com/tr?id=129477284107022&ev=PageView&noscript=1"
+
+        /></noscript>
+
+    <!-- DO NOT MODIFY -->
+
+    <!-- End Facebook Pixel Code -->
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=YPPjOWo3CY79Vp3dG/2LKb9ul5NNNp4zRKtkOZO7MwRNLgp9pJLjU9mfdQqcRcFRvtyMVaPuyNTIIDimgFy38jpNW3m2o6si1YQVNDfHaGESE1eWn45kqsmnYQ3mFH/wla6Qsh*a*RZ6MlJ0u5FbVMnNY1CxrfjvZgxtEMaqMrE-&pixel_id=1000045496';</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -85,9 +120,9 @@
                         <p><span>Адрес:</span><br>  Борисполь, ул. Киевский Шлях, 2/6 ТРЦ&nbsp;Аэромолл<br>
                             <span>График работы:</span><br> <strong>Пн-Вс</strong> с 9:00 – 20:00<br>
                             <span>Телефон:</span><br>
-                            <strong>063 211 95 55<br>
-                                099 213 95 55<br>
-                                    098 116 95 55<br></strong>
+                            <strong><span class="contacts-telephone">063 211 95 55</span><br>
+                                <span class="contacts-viber">099 213 95 55</span><br>
+                                <span class="contacts-telephone">098 116 95 55</span><br></strong>
                             <span>Электронная почта:</span><br>
                             <strong>coralborispol@gmail.com</strong>
                         </p>

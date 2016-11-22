@@ -284,7 +284,7 @@ Content
 .entry-footer {
     clear: left;
     /*margin-top: 25px;*/
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
 .page-links {
@@ -827,7 +827,7 @@ Header
 }
 
 .header-image-about {
-    background-image: url("/wpress/wp-content/themes/sydney/images/about.jpg") !important;
+    background-image: url("/wpress/wp-content/themes/sydney/img/about-header.jpg") !important;
 }
 
 .header-image-special {
@@ -847,7 +847,7 @@ Header
 }
 
 .header-image-contacts {
-    background-image: url("/wpress/wp-content/themes/sydney/images/contacts.jpg") !important;
+    background-image: url("/wpress/wp-content/themes/sydney/img/about-header.jpg") !important;
 }
 
 .header-inner {
@@ -935,7 +935,9 @@ Header
 /* navigation */
 #mainnav {
     display: block;
-    float: right;
+    /*float: right;*/
+    /*margin-left: -100px;*/
+    margin-left: -40px;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
@@ -3816,15 +3818,15 @@ input[type="color"]:focus {
 
     .content-area .hentry {
         width: 31%;
-        height: 400px;
+        height: 450px;
     }
 
     .entry-footer {
-        margin-top: 25px;
+        margin-top: 8px;
     }
 
     .entry-post {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .roll-icon-list .list-item {
@@ -3879,7 +3881,7 @@ input[type="color"]:focus {
     .content-area .hentry {
         width: 48%;
         /*height: 100%;*/
-        height: 500px;
+        height: 550px;
     }
 
     .entry-footer {
@@ -4146,27 +4148,28 @@ input[type="color"]:focus {
         line-height: 40px;
     }
 
-    #popmake-129, #popmake-158, #popmake-166 {
+    #popmake-129, #popmake-158, #popmake-166, #popmake-508 {
         width: 80% !important;
         top: 10% !important;
     }
 
-    #pum_popup_title_129, #pum_popup_title_158 {
+    #pum_popup_title_129, #pum_popup_title_158, #pum_popup_title_508 {
         margin-bottom: 10px;
         font-size: 18px;
         line-height: 25px;
     }
 
-    #popmake-129 input, #popmake-129 .pum-content > :last-child {
+    #popmake-129 input, #popmake-129 .pum-content > :last-child,
+    #popmake-508 input, #popmake-508 .pum-content > :last-child {
         margin-left: 0 !important;
         width: 100% !important;
     }
 
-    #popmake-129 span {
+    #popmake-129 span, #popmake-508 span {
         margin-left: 0 !important;
     }
 
-    #popmake-129 input[type="submit"] {
+    #popmake-129 input[type="submit"], #popmake-508 input[type="submit"] {
         padding: 10px !important;
     }
 
@@ -4343,12 +4346,13 @@ input[type="color"]:focus {
         width: 48%;
         /*height: 320px;*/
         /*height: 100%;*/
-        height: 340px;
+        height: 390px;
 
     }
 
     .entry-footer {
-        margin-top: 20px;
+        /*margin-top: 20px;*/
+        margin-top: 3px;
     }
 
     .entry-post {
@@ -4492,7 +4496,36 @@ input[type="color"]:focus {
 }
 
 /* Mobile Portrait Size */
+@media only screen and (max-width: 530px) {
+    .content-hotel-title {
+        height: 35px;
+        display: inline-block;
+        margin-top: 10px;
+        line-height: 20px;
+        /*position: relative;
+        width: 100%;*/
+    }
+    .content-area .hentry {
+        height: 490px;
+    }
+    .content-date-and-persons {
+        /*display: block !important;*/
+    }
+}
 @media only screen and (max-width: 479px) {
+    .team .team-item .team-info p.team-tel {
+        background: url("/wpress/wp-content/themes/sydney/img/telephone-icon-for-manager.png") no-repeat left center !important;
+        margin-left: 0!important;
+        padding-left: 20px!important;
+    }
+    .content-hotel-title {
+        height: 35px;
+        display: inline-block;
+        margin-top: 10px;
+        line-height: 20px;
+        /*position: relative;
+        width: 100%;*/
+    }
     .select-spec {
         width: 70%;
         /*margin-left: auto;*/
@@ -4648,7 +4681,7 @@ input[type="color"]:focus {
         width: 48%;
         /*height: 320px;*/
         /*height: 100%;*/
-        height: 230px;
+        height: 290px;
     }
 
     .content-area .entry-thumb img {
@@ -4661,7 +4694,9 @@ input[type="color"]:focus {
     }
 
     .entry-footer {
-        margin-top: 5px;
+        /*margin-top: 5px;*/
+        /*margin-top: 58px;*/
+        margin-top: 0px;
     }
 
     .entry-post {
@@ -4672,6 +4707,10 @@ input[type="color"]:focus {
         font-size: 11px !important;
         height: 27px !important;
         line-height: 25px !important;
+    }
+
+    .tprice {
+        margin-top: 35px;
     }
 
     .tprice b {
@@ -5112,7 +5151,9 @@ input[type="color"]:focus {
 }
 
 .team .team-item .team-info p.team-tel {
-    background: url("/wpress/wp-content/themes/sydney/img/icon1.png") no-repeat left center;
+    background: url("/wpress/wp-content/themes/sydney/img/manager-icon.png") no-repeat left center;
+    margin-left: -45px;
+    padding-left: 75px;
 }
 
 .team .team-item .team-info p.team-mail {
@@ -5159,19 +5200,19 @@ input[type="color"]:focus {
 }
 
 .Dunai {
-    background: url("/wpress/wp-content/themes/sydney/img/Dunai.png") no-repeat;
+    background: url("/wpress/wp-content/themes/sydney/img/adriana.png") no-repeat;
 }
 
 .Desyatnik {
-    background: url("/wpress/wp-content/themes/sydney/img/Dunai.png") no-repeat;
+    background: url("/wpress/wp-content/themes/sydney/img/ludmila.png") no-repeat;
 }
 
 .Chorna {
-    background: url("/wpress/wp-content/themes/sydney/img/Dunai.png") no-repeat;
+    background: url("/wpress/wp-content/themes/sydney/img/anonim.png") no-repeat;
 }
 
 .Korolchuk {
-    background: url("/wpress/wp-content/themes/sydney/img/Dunai.png") no-repeat;
+    background: url("/wpress/wp-content/themes/sydney/img/anonim.png") no-repeat;
 }
 
 .box {
@@ -5286,7 +5327,12 @@ input[type="color"]:focus {
 }
 
 .prices h3 {
-    color: #ff7300;
+    /*color: #ff7300;*/
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 4px 6px;
+    /*border-radius: 11px;*/
+    color: #fff;
     font-size: 28px;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
@@ -5553,11 +5599,13 @@ input[type="color"]:focus {
 
 .prev .prev-item {
     text-align: center;
-    display: inline-block;
+    display: inline-block !important;
     vertical-align: top;
-    width: 290px;
+    /*width: 290px;*/
+    width: 48% !important;
     padding-right: 14px;
     padding-left: 12px;
+    margin-bottom: 20px;
 }
 
 .prev .prev-item p.title {
@@ -5663,6 +5711,10 @@ p {
     float: left;
 }
 
+.prev-item-about {
+    text-align: left !important;
+}
+
 .about-prev .title {
     text-align: center;
 }
@@ -5672,10 +5724,10 @@ p {
 }
 
 .about-prev h2 {
-    margin-bottom: 0;
+    margin-bottom: 40px;
     color: #ff7300;
     margin-top: 30px;
-    margin-left: 6%;
+    /*margin-left: 6%;*/
 }
 
 .about-prev .text {
@@ -5699,11 +5751,11 @@ p {
     margin-left: auto;
 }
 
-#popmake-129 {
+#popmake-129, #popmake-508 {
     width: 40%;
 }
 
-#pum_popup_title_129 {
+#pum_popup_title_129, #pum_popup_title_508 {
     margin-bottom: 20px;
     font-family: "Open Sans", sans-serif;
 }
@@ -5713,19 +5765,19 @@ p {
     /*font-family: "Open Sans", sans-serif;*/
 }
 
-#popmake-129 input,
-#popmake-129 .pum-content > :last-child {
+#popmake-129 input, #popmake-508 input,
+#popmake-129 .pum-content > :last-child, #popmake-508 .pum-content > :last-child {
     width: 86%;
     margin-left: 7%;
     margin-right: auto;
 }
 
-#popmake-129 .pum-content > :last-child {
+#popmake-129 .pum-content > :last-child, #popmake-508 .pum-content > :last-child {
     margin-top: 10px !important;
     font-size: 12px;
 }
 
-#popmake-129 span {
+#popmake-129 span, #popmake-508 span {
     display: inline-block;
     vertical-align: top;
     margin-top: -16px;
@@ -5735,8 +5787,8 @@ p {
     font-family: "Open Sans", sans-serif;
 }
 
-#popmake-129 input[type="text"],
-.#popmake-129 input[type="tel"] {
+#popmake-129 input[type="text"], #popmake-508 input[type="text"],
+#popmake-129 input[type="tel"], #popmake-508 input[type="tel"] {
     border: 1px solid #33a9d9;
     border-radius: 4px;
     font-family: "Open Sans", sans-serif;
@@ -5818,4 +5870,30 @@ p {
 
 .select-spec:focus {
     outline: none;
+}
+
+.content-date-and-persons {
+    display: inline-block;
+    color: #756f6f;
+    /*vertical-align: top;*/
+}
+
+.content-bottom-line {
+    margin-top: -10px;
+}
+
+.discount-size {
+    font-weight: 300;
+}
+.contacts-viber {
+    background: url(/wpress/wp-content/themes/sydney/img/manager-icon.png) no-repeat left center;
+    margin-left: -45px;
+    padding-left: 75px;
+    font-size: 15px;
+}
+.contacts-telephone {
+    background: url(/wpress/wp-content/themes/sydney/img/telephone-icon-for-manager.png) no-repeat left center;
+    /*margin-left: -45px;*/
+    padding-left: 30px;
+    font-size: 15px;
 }

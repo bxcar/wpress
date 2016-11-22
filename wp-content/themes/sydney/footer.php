@@ -95,11 +95,11 @@
         <div class="team-item box">
             <div class="team-img Dunai"></div>
             <div class="team-info">
-                <h3>Дунай Наталия</h3>
+                <h3>Вознюк Адриана</h3>
 
-                <p class="team-tel">+38(068) 528-22-27</p>
+                <p class="team-tel">+38(099) 213-95-55</p>
 
-                <p class="team-mail">nd@makintour.com</p>
+                <p class="team-mail">coralborispol@gmail.com</p>
 
 
                 <p class="team-year">8 лет в туризме</p>
@@ -114,13 +114,13 @@
             <div class="team-img Desyatnik">
             </div>
             <div class="team-info">
-                <h3>Десятнык Владимир</h3>
+                <h3>Легкая Людмила</h3>
 
-                <p class="team-tel">+38(068) 528-22-27</p>
+                <p class="team-tel">+38(099) 213-95-55</p>
 
-                <p class="team-mail">tour0303@makintour.com</p>
+                <p class="team-mail">coralborispol@gmail.com</p>
 
-                <p class="team-year">7 лет в туризме</p>
+                <p class="team-year">12 лет в туризме</p>
 
                 <a href="#" class="popmake-129 modal-link product-link img-link"
                    data-order="Проверьте нас (Владимир)"
@@ -131,11 +131,11 @@
         <div class="team-item box">
             <div class="team-img Chorna"></div>
             <div class="team-info">
-                <h3>Черная Юлия</h3>
+                <h3>Тютюн Анна</h3>
 
-                <p class="team-tel">+38(068) 528-22-27 </p>
+                <p class="team-tel">+38(099) 213-95-55 </p>
 
-                <p class="team-mail">tour0301@makintour.com </p>
+                <p class="team-mail">coralborispol@gmail.com </p>
 
                 <p class="team-year">6 лет в туризме</p>
 
@@ -145,14 +145,14 @@
             </div>
         </div>
 
-        <div class="team-item box">
+        <!--<div class="team-item box">
             <div class="team-img Korolchuk"></div>
             <div class="team-info">
-                <h3>Корольчук Наталия</h3>
+                <h3>Аноним Анонимович</h3>
 
-                <p class="team-tel">+38(068) 528-22-27 </p>
+                <p class="team-tel">+38(099) 213-95-55 </p>
 
-                <p class="team-mail">bulgaria@makintour.com</p>
+                <p class="team-mail">coralborispol@gmail.com</p>
 
                 <p class="team-year">8 лет в туризме</p>
 
@@ -160,7 +160,7 @@
                    data-order="Проверьте нас (Наталия)"
                    data-img="http://www.makintour.com/uploads/Korolchuk.jpg">Задайте мне вопрос</a>
             </div>
-        </div>
+        </div>-->
 
         <!--<p class="telephone2"><span>Есть вопрос по отдыху? С&nbsp;удовольствием поможем:</span>
             +38(068) 528 2227 </p>-->
@@ -174,9 +174,9 @@
     <img id="palmleft" src="/wpress/wp-content/themes/sydney/img/palmleft.png">
     <div class="grid">
         <p class="telephone2"><span>Есть вопрос по отдыху? С&nbsp;удовольствием поможем:</span>
-            +38(098) 116 9555 </p>
-        <h3> Время обработки заявок: </h3>
-        <p class="dates">Пн-Пт: 10.00 - 19.00<br/>
+            +38 098 11 69 555 </p>
+        <h3> Время обработки заявок</h3>
+        <p class="dates">Пн-Пт: 9.00 - 20.00<br/>
             Сб: 10.00 - 17.00<br/>
             Вс: выходной<br/><br/>
             <span class="prefooter">Если вы оставите заявку в другое время, мы обязятельно перезвоним в рабочее время офиса</span>
@@ -184,14 +184,14 @@
     </div>
 </section>
 <h2 class="header-bottom-form">Мы гарантируем <span>ЛУЧШИЕ&nbsp;цены</span> на туры <!--<br/>-->
-    в Луцке</h2>
+    в Борисполе</h2>
 <div id="content" class="page-wrap" style="padding-top: 30px; padding-bottom: 0;">
     <div class="container content-wrapper">
         <div class="row">
             <div class="top-form-container bottom-form-without-container">
                 <div class="form-descr box">
-                    <h3>Получите <br/>
-                        1000&nbsp;грн. на тур*</h3>
+                    <h3>Получите скидку <br/>
+                        <span class="discount-size">1000&nbsp;грн. на тур*</span></h3>
 
                     <p><span>Акция!</span> Дарим сертификат на 1000&nbsp;грн. на покупку тура*
                         всем
@@ -272,10 +272,10 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="grid foot">
-        <p class="f-text1 box">ООО «ХОРОШЕЕ АГЕНСТВО» <br/>
+        <p class="f-text1 box">ООО «ХОРОШЕЕ АГЕНТСТВО» <br/>
             ЕГРПОУ: 39818659 <br/>
             р/счет: 26008053135083<br/>
-            моб. +38(098) 116 9555
+            моб. +38 098 11 69 555
         </p>
 
         <p class="f-text2 box">г.&nbsp;Борисполь, <br/>

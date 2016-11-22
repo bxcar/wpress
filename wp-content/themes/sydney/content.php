@@ -246,7 +246,7 @@ AND pmet.meta_value = p.id";
             <!-- для сокращенной записи the_excerpt();-->
             <div>от <strong><b><?php the_tags('<style>b a {color: #0088e7;}</style>'); ?></b></strong> $</div>
             <img style="display: none;" id="im" src="/wpress/wp-content/themes/sydney/img/icons/privilege2.png">
-            <a rel="fancybox" href="#" class="popmake-129 btnprice modal-link product-link"
+            <a rel="fancybox" href="#" class="popmake-form_for_special btnprice modal-link product-link"
                data-order="AMC Royal Hotel 5*" country="Египет">Заказать</a>
         </div>
     </footer><!-- .entry-footer -->
