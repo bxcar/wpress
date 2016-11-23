@@ -13,7 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic"
+        rel="stylesheet">
     <?php if (!function_exists('has_site_icon') || !has_site_icon()) : ?>
         <?php if (get_theme_mod('site_favicon')) : ?>
             <link rel="shortcut icon" href="<?php echo esc_url(get_theme_mod('site_favicon')); ?>"/>
@@ -25,15 +27,28 @@
 
     <script>
 
-        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq)return;
+            n = f.fbq = function () {
+                n.callMethod ?
 
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq)f._fbq = n;
 
-            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
 
-            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
 
-            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
 
 
         fbq('init', '129477284107022', {
@@ -55,7 +70,8 @@
     <!-- DO NOT MODIFY -->
 
     <!-- End Facebook Pixel Code -->
-    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=YPPjOWo3CY79Vp3dG/2LKb9ul5NNNp4zRKtkOZO7MwRNLgp9pJLjU9mfdQqcRcFRvtyMVaPuyNTIIDimgFy38jpNW3m2o6si1YQVNDfHaGESE1eWn45kqsmnYQ3mFH/wla6Qsh*a*RZ6MlJ0u5FbVMnNY1CxrfjvZgxtEMaqMrE-&pixel_id=1000045496';</script>
+    <script
+        type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=YPPjOWo3CY79Vp3dG/2LKb9ul5NNNp4zRKtkOZO7MwRNLgp9pJLjU9mfdQqcRcFRvtyMVaPuyNTIIDimgFy38jpNW3m2o6si1YQVNDfHaGESE1eWn45kqsmnYQ3mFH/wla6Qsh*a*RZ6MlJ0u5FbVMnNY1CxrfjvZgxtEMaqMrE-&pixel_id=1000045496';</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -92,7 +108,8 @@
                     <div class="col-md-8 col-sm-4 col-xs-12 header-number">
                         <!--<img src="/wpress/wp-content/themes/sydney/img/telephone_not_fill.png" width="30" height="30"
                              style="width: 21px; height: 21px; float: left; margin-right: 10px;">-->
-                        <p <!--style="overflow: hidden;-->">098 11 69 555<br><a href="#"><span class="popmake-form header-number-text">Закажите обратный звонок</span></a>
+                        <p <!--style="overflow: hidden;-->">098 11 69 555<br><a href="#"><span
+                                class="popmake-form header-number-text">Закажите обратный звонок</span></a>
                     </div>
                 </div>
             </div>
@@ -117,7 +134,7 @@
                 <div class="top-form-container top-form-container-contacts">
                     <div class="contacts-text-left">
                         <p>Приходите к нам. Мы всегда рады нашим туристам!</p>
-                        <p><span>Адрес:</span><br>  Борисполь, ул. Киевский Шлях, 2/6 ТРЦ&nbsp;Аэромолл<br>
+                        <p><span>Адрес:</span><br> Борисполь, ул. Киевский Шлях, 2/6 ТРЦ&nbsp;Аэромолл<br>
                             <span>График работы:</span><br> <strong>Пн-Вс</strong> с 9:00 – 20:00<br>
                             <span>Телефон:</span><br>
                             <strong><span class="contacts-telephone">063 211 95 55</span><br>
@@ -128,8 +145,86 @@
                         </p>
                     </div>
                     <div class="contacts-map-right" style="display: inline-block; vertical-align: top;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.1364595532696!2d30.92083026659438!3d50.36400992402535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f2b88ab99d49d4f!2z0JDRjdGA0L7QvNC-0LvQuyDQotCg0KY!5e0!3m2!1sru!2sua!4v1479465435502" width="350" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.1364595532696!2d30.92083026659438!3d50.36400992402535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f2b88ab99d49d4f!2z0JDRjdGA0L7QvNC-0LvQuyDQotCg0KY!5e0!3m2!1sru!2sua!4v1479465435502"
+                            width="350" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
+                <section class="team">
+                    <div class="grid">
+                        <div class="team-item box">
+                            <div class="team-img Dunai"></div>
+                            <div class="team-info">
+                                <h3>Вознюк Адриана</h3>
+
+                                <p class="team-tel">+38(099) 213-95-55</p>
+
+                                <p class="team-mail">coralborispol@gmail.com</p>
+
+
+                                <p class="team-year">8 лет в туризме</p>
+
+                                <a href="#" class="popmake-129 modal-link product-link img-link"
+                                   data-order="Проверьте нас (Наталия)"
+                                   data-img="http://www.makintour.com/uploads/Dunai.jpg">Задайте мне вопрос</a>
+                            </div>
+                        </div>
+
+                        <div class="team-item box">
+                            <div class="team-img Desyatnik">
+                            </div>
+                            <div class="team-info">
+                                <h3>Легкая Людмила</h3>
+
+                                <p class="team-tel">+38(099) 213-95-55</p>
+
+                                <p class="team-mail">coralborispol@gmail.com</p>
+
+                                <p class="team-year">12 лет в туризме</p>
+
+                                <a href="#" class="popmake-129 modal-link product-link img-link"
+                                   data-order="Проверьте нас (Владимир)"
+                                   data-img="http://www.makintour.com/uploads/Desyatnik.JPG">Задайте мне вопрос</a>
+                            </div>
+                        </div>
+
+                        <div class="team-item box">
+                            <div class="team-img Chorna"></div>
+                            <div class="team-info">
+                                <h3>Тютюн Анна</h3>
+
+                                <p class="team-tel">+38(099) 213-95-55 </p>
+
+                                <p class="team-mail">coralborispol@gmail.com </p>
+
+                                <p class="team-year">6 лет в туризме</p>
+
+                                <a href="#" class="popmake-129 modal-link product-link img-link"
+                                   data-order="Проверьте нас (Юлия)"
+                                   data-img="http://www.makintour.com/uploads/Chorna.jpg">Задайте мне вопрос</a>
+                            </div>
+                        </div>
+
+                        <!--<div class="team-item box">
+                            <div class="team-img Korolchuk"></div>
+                            <div class="team-info">
+                                <h3>Аноним Анонимович</h3>
+
+                                <p class="team-tel">+38(099) 213-95-55 </p>
+
+                                <p class="team-mail">coralborispol@gmail.com</p>
+
+                                <p class="team-year">8 лет в туризме</p>
+
+                                <a href="#" class="popmake-129 modal-link product-link img-link"
+                                   data-order="Проверьте нас (Наталия)"
+                                   data-img="http://www.makintour.com/uploads/Korolchuk.jpg">Задайте мне вопрос</a>
+                            </div>
+                        </div>-->
+
+                        <!--<p class="telephone2"><span>Есть вопрос по отдыху? С&nbsp;удовольствием поможем:</span>
+                            +38(068) 528 2227 </p>-->
+                    </div>
+                </section>
 
                 

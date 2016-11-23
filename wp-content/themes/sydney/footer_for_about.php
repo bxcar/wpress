@@ -95,7 +95,86 @@
             С большим удовольствием ждем вас по адресу: г.Борисполь, ул. Киевский Шлях, 2/6 - ТРЦ Аэромолл.</p>
     </div>
 </div>
+<section class="team" style="padding-top: 30px;">
+    <div class="grid">
+        <p class="team-text">Наши эксперты подберут и рассчитают для вас 5 вариантов отдыха за 10&nbsp;минут.</p>
 
+        <h2>Проверьте нас прямо сейчас!</h2>
+
+        <div class="team-item box">
+            <div class="team-img Dunai"></div>
+            <div class="team-info">
+                <h3>Вознюк Адриана</h3>
+
+                <p class="team-tel">+38(099) 213-95-55</p>
+
+                <p class="team-mail">coralborispol@gmail.com</p>
+
+
+                <p class="team-year">8 лет в туризме</p>
+
+                <a href="#" class="popmake-129 modal-link product-link img-link"
+                   data-order="Проверьте нас (Наталия)"
+                   data-img="http://www.makintour.com/uploads/Dunai.jpg">Задайте мне вопрос</a>
+            </div>
+        </div>
+
+        <div class="team-item box">
+            <div class="team-img Desyatnik">
+            </div>
+            <div class="team-info">
+                <h3>Легкая Людмила</h3>
+
+                <p class="team-tel">+38(099) 213-95-55</p>
+
+                <p class="team-mail">coralborispol@gmail.com</p>
+
+                <p class="team-year">12 лет в туризме</p>
+
+                <a href="#" class="popmake-129 modal-link product-link img-link"
+                   data-order="Проверьте нас (Владимир)"
+                   data-img="http://www.makintour.com/uploads/Desyatnik.JPG">Задайте мне вопрос</a>
+            </div>
+        </div>
+
+        <div class="team-item box">
+            <div class="team-img Chorna"></div>
+            <div class="team-info">
+                <h3>Тютюн Анна</h3>
+
+                <p class="team-tel">+38(099) 213-95-55 </p>
+
+                <p class="team-mail">coralborispol@gmail.com </p>
+
+                <p class="team-year">6 лет в туризме</p>
+
+                <a href="#" class="popmake-129 modal-link product-link img-link"
+                   data-order="Проверьте нас (Юлия)"
+                   data-img="http://www.makintour.com/uploads/Chorna.jpg">Задайте мне вопрос</a>
+            </div>
+        </div>
+
+        <!--<div class="team-item box">
+            <div class="team-img Korolchuk"></div>
+            <div class="team-info">
+                <h3>Аноним Анонимович</h3>
+
+                <p class="team-tel">+38(099) 213-95-55 </p>
+
+                <p class="team-mail">coralborispol@gmail.com</p>
+
+                <p class="team-year">8 лет в туризме</p>
+
+                <a href="#" class="popmake-129 modal-link product-link img-link"
+                   data-order="Проверьте нас (Наталия)"
+                   data-img="http://www.makintour.com/uploads/Korolchuk.jpg">Задайте мне вопрос</a>
+            </div>
+        </div>-->
+
+        <!--<p class="telephone2"><span>Есть вопрос по отдыху? С&nbsp;удовольствием поможем:</span>
+            +38(068) 528 2227 </p>-->
+    </div>
+</section>
 </div>
 </div>
 <!--<h2 class="header-bottom-form">Мы гарантируем <span>ЛУЧШИЕ&nbsp;цены</span> на туры <!--<br/>-->

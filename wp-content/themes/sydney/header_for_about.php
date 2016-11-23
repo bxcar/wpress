@@ -114,7 +114,10 @@
                 <!--<div class="form" style="width: 500px; height: 500px;">
                     <p>[contact-form-7 id="47" title="Заполните форму"]</p>
                 </div>
--->
+-->                 <p>
+                    <a style="margin-right: 20px; text-decoration: underline;" href="/wpress/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/">Контакты</a>
+                    <a style="text-decoration: underline; /*color: #ff7300;*/" href="#">Отзывы</a>
+                </p>
 <!--                <div class="top-form-container">-->
                     <p class="about">Официальное представительство туристической компании «Coral Travel», расположенное в Борисполе,
                         с 2015 года предлагает вам комфортный, интересный и качественный отдых по доступным ценам.

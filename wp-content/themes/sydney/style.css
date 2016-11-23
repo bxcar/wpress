@@ -3822,7 +3822,11 @@ input[type="color"]:focus {
     }
 
     .entry-footer {
-        margin-top: 8px;
+        margin-top: 35px;
+    }
+
+    .content-date-and-persons {
+        margin-top: 5px !important;
     }
 
     .entry-post {
@@ -3885,7 +3889,11 @@ input[type="color"]:focus {
     }
 
     .entry-footer {
-        margin-top: 35px;
+        margin-top: 45px;
+    }
+
+    .content-date-and-persons {
+        margin-top: 20px;
     }
 
     .entry-post {
@@ -4102,6 +4110,7 @@ input[type="color"]:focus {
         background-size: 15% !important;
         left: 42% !important;
     }
+
     .header-number-text {
         border: 1px solid #fff;
         padding: 0 3px;
@@ -4148,28 +4157,39 @@ input[type="color"]:focus {
         line-height: 40px;
     }
 
-    #popmake-129, #popmake-158, #popmake-166, #popmake-508 {
+    #popmake-129,
+    #popmake-158,
+    #popmake-166,
+    #popmake-508,
+    #popmake-522 {
         width: 80% !important;
         top: 10% !important;
     }
 
-    #pum_popup_title_129, #pum_popup_title_158, #pum_popup_title_508 {
+    #pum_popup_title_129,
+    #pum_popup_title_158,
+    #pum_popup_title_508 {
         margin-bottom: 10px;
         font-size: 18px;
         line-height: 25px;
     }
 
     #popmake-129 input, #popmake-129 .pum-content > :last-child,
+    #popmake-522 input, #popmake-522 .pum-content > :last-child,
     #popmake-508 input, #popmake-508 .pum-content > :last-child {
         margin-left: 0 !important;
         width: 100% !important;
     }
 
-    #popmake-129 span, #popmake-508 span {
+    #popmake-129 span,
+    #popmake-508 span,
+    #popmake-522 span {
         margin-left: 0 !important;
     }
 
-    #popmake-129 input[type="submit"], #popmake-508 input[type="submit"] {
+    #popmake-129 input[type="submit"],
+    #popmake-508 input[type="submit"],
+    #popmake-522 input[type="submit"] {
         padding: 10px !important;
     }
 
@@ -4352,7 +4372,11 @@ input[type="color"]:focus {
 
     .entry-footer {
         /*margin-top: 20px;*/
-        margin-top: 3px;
+        margin-top: 23px !important;
+    }
+
+    .content-date-and-persons {
+        margin-top: 5px !important;
     }
 
     .entry-post {
@@ -4505,19 +4529,31 @@ input[type="color"]:focus {
         /*position: relative;
         width: 100%;*/
     }
-    .content-area .hentry {
-        height: 490px;
+
+    .entry-footer {
+        /*margin-top: 20px;*/
+        margin-top: 13px !important;
     }
+
     .content-date-and-persons {
-        /*display: block !important;*/
+        margin-top: 5px !important;
+    }
+
+    .content-area .hentry {
+        height: 420px;
     }
 }
+
 @media only screen and (max-width: 479px) {
+    .content-date-and-persons {
+        margin-top: 0 !important;
+    }
     .team .team-item .team-info p.team-tel {
         background: url("/wpress/wp-content/themes/sydney/img/telephone-icon-for-manager.png") no-repeat left center !important;
-        margin-left: 0!important;
-        padding-left: 20px!important;
+        margin-left: 0 !important;
+        padding-left: 20px !important;
     }
+
     .content-hotel-title {
         height: 35px;
         display: inline-block;
@@ -4526,6 +4562,7 @@ input[type="color"]:focus {
         /*position: relative;
         width: 100%;*/
     }
+
     .select-spec {
         width: 70%;
         /*margin-left: auto;*/
@@ -4714,7 +4751,7 @@ input[type="color"]:focus {
     }
 
     .tprice b {
-        font-size: 11px !important;
+        font-size: 13px !important; /*11*/
     }
 
     .tprice div {
@@ -5755,11 +5792,15 @@ p {
     margin-left: auto;
 }
 
-#popmake-129, #popmake-508 {
+#popmake-129,
+#popmake-508,
+#popmake-522 {
     width: 40%;
 }
 
-#pum_popup_title_129, #pum_popup_title_508 {
+#pum_popup_title_129,
+#pum_popup_title_508,
+#pum_popup_title_522{
     margin-bottom: 20px;
     font-family: "Open Sans", sans-serif;
 }
@@ -5769,19 +5810,27 @@ p {
     /*font-family: "Open Sans", sans-serif;*/
 }
 
-#popmake-129 input, #popmake-508 input,
-#popmake-129 .pum-content > :last-child, #popmake-508 .pum-content > :last-child {
+#popmake-129 input,
+#popmake-508 input,
+#popmake-522 input,
+#popmake-129 .pum-content > :last-child,
+#popmake-508 .pum-content > :last-child,
+#popmake-522 .pum-content > :last-child {
     width: 86%;
     margin-left: 7%;
     margin-right: auto;
 }
 
-#popmake-129 .pum-content > :last-child, #popmake-508 .pum-content > :last-child {
+#popmake-129 .pum-content > :last-child,
+#popmake-508 .pum-content > :last-child,
+#popmake-522 .pum-content > :last-child {
     margin-top: 10px !important;
     font-size: 12px;
 }
 
-#popmake-129 span, #popmake-508 span {
+#popmake-129 span,
+#popmake-508 span,
+#popmake-522 span {
     display: inline-block;
     vertical-align: top;
     margin-top: -16px;
@@ -5791,8 +5840,12 @@ p {
     font-family: "Open Sans", sans-serif;
 }
 
-#popmake-129 input[type="text"], #popmake-508 input[type="text"],
-#popmake-129 input[type="tel"], #popmake-508 input[type="tel"] {
+#popmake-129 input[type="text"],
+#popmake-508 input[type="text"],
+#popmake-522 input[type="text"],
+#popmake-129 input[type="tel"],
+#popmake-508 input[type="tel"],
+#popmake-522 input[type="tel"] {
     border: 1px solid #33a9d9;
     border-radius: 4px;
     font-family: "Open Sans", sans-serif;
@@ -5889,12 +5942,14 @@ p {
 .discount-size {
     font-weight: 300;
 }
+
 .contacts-viber {
     background: url(/wpress/wp-content/themes/sydney/img/manager-icon.png) no-repeat left center;
     margin-left: -45px;
     padding-left: 75px;
     font-size: 15px;
 }
+
 .contacts-telephone {
     background: url(/wpress/wp-content/themes/sydney/img/telephone-icon-for-manager.png) no-repeat left center;
     /*margin-left: -45px;*/
