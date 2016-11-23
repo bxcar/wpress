@@ -247,8 +247,24 @@ AND pmet.meta_value = p.id";
             <!-- для сокращенной записи the_excerpt();-->
             <div>от <strong><b><?php the_tags('<style>b a {color: #0088e7;}</style>'); ?></b></strong> $</div>
             <img style="display: none;" id="im" src="/wpress/wp-content/themes/sydney/img/icons/privilege2.png">
-            <a rel="fancybox" href="#" class="popmake-form_for_special btnprice modal-link product-link"
+            <a onclick="addhotel(this);" rel="fancybox" href="#" class="popmake-form_for_special btnprice modal-link product-link"
                data-order="AMC Royal Hotel 5*" country="Египет">Заказать</a>
         </div>
     </footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+<!--<script> function addhotel(th) {
+        var p = document.getElementById("hotel-country");
+        var country = document.getElementById("country-title");
+        var county_value = country.innerHTML;
+        p.innerHTML = county_value;
+        var img = jQuery(th).parent().parent().parent().children(".entry-header").html();
+        p.innerHTML = img;
+    }
+</script>-->
+<!--<script> function addhotel(th) {
+        var p = document.getElementById("hotel-country");
+        var country_titile = jQuery(th).parent().parent().parent().children(".entry-header").html();
+        var hotel_title = jQuery(th).parent().parent().parent().children(".entry-post").html();
+        p.innerHTML = country_titile + hotel_title;
+    }
+</script>-->

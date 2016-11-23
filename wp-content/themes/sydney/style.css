@@ -3701,9 +3701,12 @@ input[type="color"]:focus {
 
 /* Media Queries
 -------------------------------------------------------------- */
-@media only screen and (min-width: 1930px) {
+@media only screen and (min-width: 1366px) { /*1930*/
     .parallax {
         background-size: cover;
+    }
+    #popmake-129, #popmake-508, #popmake-522 {
+        width: 451px !important;
     }
 }
 
@@ -3753,6 +3756,11 @@ input[type="color"]:focus {
 
 /* Smaller than standard 1200 */
 @media only screen and (max-width: 1199px) {
+    #popmake-129,
+    #popmake-508,
+    #popmake-522 {
+        width: 40% !important;
+    }
     .header-number-text {
         border: 1px solid #fff;
         padding: 0 3px;
@@ -3789,7 +3797,8 @@ input[type="color"]:focus {
         text-align: left;
         color: #ffffff;
         font-size: 16px !important;
-        font-family: 'Open Sans', sans-serif
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
         /*font-size: 16px !important;*/
     }
 
@@ -4003,6 +4012,8 @@ input[type="color"]:focus {
 
     .header-number p {
         margin-top: 5px;
+        text-align: center;
+        margin-left: -40px
     }
 
     /* .header-number p {
@@ -5795,7 +5806,7 @@ p {
 #popmake-129,
 #popmake-508,
 #popmake-522 {
-    width: 40%;
+    width: 33%;
 }
 
 #pum_popup_title_129,

@@ -95,9 +95,14 @@ if ( ! class_exists( 'PUM_Popup' ) ) {
 		public function get_title() {
 			if ( ! $this->title ) {
 				$title = get_post_meta( $this->ID, 'popup_title', true );
+//				 if ((get_theme_mod('full_content_home') == 1 && is_home()) || (get_theme_mod('full_content_archives') == 1 && is_archive())) :
+				/*$title = the_title(sprintf('<h2 class="title-post">
+					<span id="country-title" style="color: #0088e7;" href="%s" rel="bookmark">',
+					esc_url(get_permalink())), '</span></h2>').the_content();*/
 
 				// Deprecated
 				$this->title = apply_filters( 'popmake_get_the_popup_title', $title, $this->ID );
+//				 endif;
 			}
 
 			return apply_filters( 'pum_popup_get_title', $this->title, $this->ID );

@@ -16,8 +16,8 @@
 ?>
 <div class="top-form-container">
     <div class="form-descr box">
-        <h3>Получите скидку <br/>
-            <span class="discount-size">1000&nbsp;грн. на тур*</span></h3>
+        <h3>Получите <span class="discount-size">скидку</span> <br/>
+            1000&nbsp;грн. на тур*</h3>
 
         <p><span>Акция!</span> Дарим сертификат на 1000&nbsp;грн. на покупку тура*
             всем

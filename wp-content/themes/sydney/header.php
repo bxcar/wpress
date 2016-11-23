@@ -120,7 +120,7 @@
                     <div class="col-md-8 col-sm-4 col-xs-12 header-number">
                         <!--<img src="/wpress/wp-content/themes/sydney/img/telephone_not_fill.png" width="30" height="30"
                              style="width: 21px; height: 21px; float: left; margin-right: 10px;">-->
-                        <p <!--style="overflow: hidden;-->">098 11 69 555<br><a href="#"><span class="popmake-522 header-number-text">Закажите обратный звонок</span></a></p>
+                        <p <!--style="overflow: hidden;-->">098 11 69 555<br><a href="#"><span class="popmake-522 header-number-text">Закажите&nbsp;обратный&nbsp;звонок</span></a></p>
                     </div>
                 </div>
             </div>
@@ -143,8 +143,8 @@
 -->
                 <div class="top-form-container">
                     <div class="form-descr box">
-                        <h3>Получите скидку <br/>
-                            <span class="discount-size">1000&nbsp;грн. на тур*</span></h3>
+                        <h3>Получите <span class="discount-size">скидку</span> <br/>
+                            1000&nbsp;грн. на тур*</h3>
 
                         <p><span>Акция!</span> Дарим сертификат на 1000&nbsp;грн. на покупку тура*
                             всем
