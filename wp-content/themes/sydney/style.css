@@ -4868,7 +4868,7 @@ input[type="color"]:focus {
     transition: 0.33s;
 }
 
-.tprice a:visited {
+.tprice a:focus {
     color: #fff;
 }
 
@@ -4920,7 +4920,7 @@ input[type="color"]:focus {
     color: white !important;
 }
 
-.btnprice:visited {
+.btnprice a:visited {
     color: white;
 }
 

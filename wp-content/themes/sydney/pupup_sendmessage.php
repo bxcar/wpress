@@ -1,10 +1,11 @@
 <?php
 
-$sendto  = 'seo@makintour.com, coralborispol@gmail.com'; //Адреса, куда будут приходить письма
-//$sendto  = 'malanchukdima@mail.ru'; //Адреса, куда будут приходить письма
+//$sendto  = 'seo@makintour.com, coralborispol@gmail.com'; //Адреса, куда будут приходить письма
+$sendto  = 'malanchukdima@mail.ru'; //Адреса, куда будут приходить письма
 
-$phone  = $_POST['phone'];
-$name  = $_POST['name'];
+$phone  = $_POST['tel-564'];
+$name  = $_POST['your-name'];
+$p = trim(strip_tags($_POST['target'], '<br>'));
 
 // Формирование заголовка письма
 
@@ -19,6 +20,7 @@ $subject  = '[Новая заявка - Coral Travel г. Борисполь]';
 $msg = "Новая заявка - Coral Travel г. Борисполь\r\n";
 $msg .= "Имя: ".$name."\r\n";
 $msg .= "Телефон: ".$phone."\r\n";
+$msg .= "Идентификатор формы: ".$p."\r\n";
 
 // отправка сообщения
 if(mail($sendto, $subject, $msg)) {
