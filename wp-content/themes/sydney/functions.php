@@ -353,4 +353,4 @@ function sydney_recommend_plugin() {
 
 }
 
-ini_set('memory_limit', '512M'); 
+//ini_set('memory_limit', '512M'); 

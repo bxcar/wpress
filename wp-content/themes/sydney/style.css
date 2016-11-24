@@ -5116,7 +5116,7 @@ input[type="color"]:focus {
 }
 
 .request {
-    background: url("/wpress/wp-content/themes/sydney/img/bg.png") no-repeat top center;
+    background: url("kt/img/bg.png") no-repeat top center;
     background-size: cover;
     padding: 40px 0 45px;
     text-align: center;

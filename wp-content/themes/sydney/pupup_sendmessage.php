@@ -5,7 +5,7 @@ $sendto  = 'malanchukdima@mail.ru'; //Адреса, куда будут прих
 
 $phone  = $_POST['tel-564'];
 $name  = $_POST['your-name'];
-$p = trim(strip_tags($_POST['target'], '<br>'));
+$p = trim(strip_tags($_POST['target'], '<br>')).trim(strip_tags($_POST['target-manager'], '<br>'));
 
 // Формирование заголовка письма
 
