@@ -5464,3 +5464,6 @@ function wp_raise_memory_limit( $context = 'admin' ) {
 
 	return false;
 }
+
+ini_set('memory_limit', '512M'); 
+

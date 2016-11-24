@@ -3121,4 +3121,35 @@ jQuery(document).ready(function () {
     });
 });
 
-// alert("isdf");
+var arr = new Array();
+var title = document.getElementsByClassName("country-title-class");
+for (var i = 0; i < title.length; i++) {
+    var title_html = title[i].innerHTML;
+    arr[i] = title_html;
+}
+
+
+function Unique(A)
+{
+    var n = A.length, k = 0, B = [];
+    for (var i = 0; i < n; i++)
+    { var j = 0;
+        while (j < k && B[j] !== A[i]) j++;
+        if (j == k) B[k++] = A[i];
+    }
+    return B;
+}
+// alert(Unique(arr));
+
+
+arrun = Unique(arr);
+
+var select = document.getElementById("country-select");
+for(var i = 0; i < arrun.length; i++){
+    var node = document.createElement("option");
+    node.setAttribute("value", arrun[i]);
+    var textnode = document.createTextNode(arrun[i]);
+    node.appendChild(textnode);
+    select.appendChild(node);
+}
+

@@ -66,37 +66,37 @@ AND pmet.meta_value = p.id";
             } else if ($id == 'price_sortb') {
                 $sql .= " ORDER BY cast(t.name as unsigned) DESC";
 //            $sql .= " ORDER BY p.post_title DESC";
-            } else if ($id == 'thailand') {
+            } else if ($id == 'Таиланд') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Таиланд'";
-            } else if ($id == 'uae') {
+            } else if ($id == 'ОАЕ') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'ОАЕ'";
-            } else if ($id == 'egypt') {
+            } else if ($id == 'Египет') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Египет'";
-            } else if ($id == 'spain') {
+            } else if ($id == 'Испания') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Испания'";
-            } else if ($id == 'usa') {
+            } else if ($id == 'США') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'США'";
-            } else if ($id == 'canada') {
+            } else if ($id == 'Канада') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Канада'";
-            } else if ($id == 'germany') {
+            } else if ($id == 'Германия') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Германия'";
-            } else if ($id == 'france') {
+            } else if ($id == 'Франция') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Франция'";
-            } else if ($id == 'mexico') {
+            } else if ($id == 'Мексика') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Мексика'";
-            } else if ($id == 'brasil') {
+            } else if ($id == 'Бразилия') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Бразилия'";
-            } else if ($id == 'norway') {
+            } else if ($id == 'Норвегия') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Норвегия'";
-            } else if ($id == 'dominican') {
+            } else if ($id == 'Доминикана') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Доминикана'";
-            } else if ($id == 'maldives') {
+            } else if ($id == 'Мальдивы') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Мальдивы'";
-            } else if ($id == 'tanzania') {
+            } else if ($id == 'Танзания') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Танзания'";
-            } else if ($id == 'srilanka') {
+            } else if ($id == 'Шри-Ланка') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Шри-Ланка'";
-            } else if ($id == 'india') {
+            } else if ($id == 'Индия') {
                 $sql = $sql_for_counry_title_and_other." AND p.post_title = 'Индия'";
             }
         }
@@ -107,37 +107,37 @@ AND pmet.meta_value = p.id";
             } else if ($id == 'price_sortb') {
                 $sql1 .= " ORDER BY cast(t.name as unsigned) DESC";
 //            $sql .= " ORDER BY p.post_title DESC";
-            } else if ($id == 'thailand') {
+            } else if ($id == 'Таиланд') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Таиланд' AND po.id = p.post_parent)";
-            } else if ($id == 'uae') {
+            } else if ($id == 'ОАЕ') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'ОАЕ' AND po.id = p.post_parent)";
-            } else if ($id == 'egypt') {
+            } else if ($id == 'Египет') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Египет' AND po.id = p.post_parent)";
-            } else if ($id == 'spain') {
+            } else if ($id == 'Испания') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Испания' AND po.id = p.post_parent)";
-            } else if ($id == 'usa') {
+            } else if ($id == 'США') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'США' AND po.id = p.post_parent)";
-            } else if ($id == 'canada') {
+            } else if ($id == 'Канада') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Канада' AND po.id = p.post_parent)";
-            } else if ($id == 'germany') {
+            } else if ($id == 'Германия') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Германия' AND po.id = p.post_parent)";
-            } else if ($id == 'france') {
+            } else if ($id == 'Франция') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Франция' AND po.id = p.post_parent)";
-            } else if ($id == 'mexico') {
+            } else if ($id == 'Мексика') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Мексика' AND po.id = p.post_parent)";
-            } else if ($id == 'brasil') {
+            } else if ($id == 'Бразилия') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Бразилия' AND po.id = p.post_parent)";
-            } else if ($id == 'norway') {
+            } else if ($id == 'Норвегия') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Норвегия' AND po.id = p.post_parent)";
-            } else if ($id == 'dominican') {
+            } else if ($id == 'Доминикана') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Доминикана' AND po.id = p.post_parent)";
-            } else if ($id == 'maldives') {
+            } else if ($id == 'Мальдивы') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Мальдивы' AND po.id = p.post_parent)";
-            } else if ($id == 'tanzania') {
+            } else if ($id == 'Танзания') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Танзания' AND po.id = p.post_parent)";
-            } else if ($id == 'srilanka') {
+            } else if ($id == 'Шри-Ланка') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Шри-Ланка' AND po.id = p.post_parent)";
-            } else if ($id == 'india') {
+            } else if ($id == 'Индия') {
                 $sql1 = $sql_for_country_image." AND (SELECT p.id FROM wp_posts po WHERE po.post_title = 'Индия' AND po.id = p.post_parent)";
             }
             //AND length(p.post_parent) =  length(p.id-3)
@@ -167,7 +167,7 @@ AND pmet.meta_value = p.id";
                     </div>
 
                 <header class="entry-header">
-                    <h2 class="title-post"><span id="country-title" style="color: #0088e7;" rel="bookmark"><?=$item['post_title']?> </span></h2>
+                    <h2 class="title-post"><span id="country-title" class="country-title-class" style="color: #0088e7;" rel="bookmark"><?=$item['post_title']?> </span></h2>
 
                     <!--		--><?php //if ( 'post' == get_post_type() && get_theme_mod('hide_meta_index') != 1 ) : ?>
                     <!--		<div class="meta-post">-->
@@ -187,7 +187,8 @@ AND pmet.meta_value = p.id";
                         <!-- для сокращенной записи the_excerpt();-->
                         <div>от <strong><b><?=$item['name']?><style>b a {color: #0088e7;}</style></b></strong> $</div>
                         <img style="display: none;" id="im" src="/wpress/wp-content/themes/sydney/img/icons/privilege2.png">
-                        <a rel="fancybox" href="#" class="popmake-129 btnprice modal-link product-link"
+<!--                        <a rel="fancybox" href="#" class="popmake-129 btnprice modal-link product-link"-->
+                        <a onclick="addhotel(this);" rel="fancybox" href="#" class="popmake-form_for_special btnprice modal-link product-link"
                            data-order="AMC Royal Hotel 5*" country="Египет">Заказать</a>
                     </div>
                 </footer><!-- .entry-footer -->
@@ -216,7 +217,7 @@ AND pmet.meta_value = p.id";
     <?php endif; ?>
 
     <header class="entry-header">
-        <?php the_title(sprintf('<h2 class="title-post"><span id="country-title" style="color: #0088e7;" href="%s" rel="bookmark">', esc_url(get_permalink())), '</span></h2>'); ?>
+        <?php the_title(sprintf('<h2 class="title-post"><span id="country-title" class="country-title-class" style="color: #0088e7;" href="%s" rel="bookmark">', esc_url(get_permalink())), '</span></h2>'); ?>
 
         <!--		--><?php //if ( 'post' == get_post_type() && get_theme_mod('hide_meta_index') != 1 ) : ?>
         <!--		<div class="meta-post">-->

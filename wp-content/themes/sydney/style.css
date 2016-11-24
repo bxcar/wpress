@@ -5842,6 +5842,15 @@ p {
     width: 33%;
 }
 
+#popmake-508 .aero-date {
+    display: inline !important;
+}
+
+.aero-date {
+    display: none !important;
+}
+
+
 #popmake-508 .title-post {
     margin-bottom: 0px;
 }
@@ -5854,7 +5863,7 @@ p {
 }
 
 #popmake-508 .content-hotel-title {
-    margin-left: 10px;
+    margin-left: 0px;
     text-align: center;
     font-size: 18px;
 }
@@ -6063,10 +6072,14 @@ p {
 }
 
 #showcase_module {
-    max-width: 800px;
+    max-width: 935px;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+.boxy-inner img {
+    width: auto !important;
+}
+
 
 #tour_search_module_mod2 .itt_content_position {
     max-width: 935px;

@@ -117,7 +117,7 @@
                     <div class="col-md-8 col-sm-4 col-xs-12 header-number">
                     <!--<img src="/wpress/wp-content/themes/sydney/img/telephone_not_fill.png" width="30" height="30"
                          style="width: 21px; height: 21px; float: left; margin-right: 10px;">-->
-                    <p <!--style="overflow: hidden;-->">098 11 69 555<br><a href="#"><span class="popmake-form header-number-text">Закажите обратный звонок</span></a>
+                    <p <!--style="overflow: hidden;-->">098 11 69 555<br><a href="#"><span class="popmake-522 header-number-text">Закажите обратный звонок</span></a>
                 </div>
             </div>
         </div>
@@ -153,22 +153,22 @@
                     <select id="country-select" class="select-spec" style="margin-right: 20px;
                                   margin-left: 25px;">
                         <option style="display: none;" value="country-default" disabled selected>Выберите страну</option>
-                        <option value="thailand">Таиланд</option>
-                        <option value="uae">ОАЕ</option>
-                        <option value="egypt">Египет</option>
-                        <option value="spain">Испания</option>
-                        <option value="usa">США</option>
-                        <option value="canada">Канада</option>
-                        <option value="germany">Германия</option>
-                        <option value="france">Франция</option>
-                        <option value="mexico">Мексика</option>
-                        <option value="brasil">Бразилия</option>
-                        <option value="norway">Норвегия</option>
-                        <option value="dominican">Доминикана</option>
-                        <option value="maldives">Мальдивы</option>
-                        <option value="tanzania">Танзания</option>
-                        <option value="srilanka">Шри-Ланка</option>
-                        <option value="india">Индия</option>
+                        <!--<option value="Таиланд">Таиланд</option>
+                        <option value="ОАЕ">ОАЕ</option>
+                        <option value="Египет">Египет</option>
+                        <option value="Испания">Испания</option>
+                        <option value="США">США</option>
+                        <option value="Канада">Канада</option>
+                        <option value="Германия">Германия</option>
+                        <option value="Франция">Франция</option>
+                        <option value="Мексика">Мексика</option>
+                        <option value="Бразилия">Бразилия</option>
+                        <option value="Норвегия">Норвегия</option>
+                        <option value="Доминикана">Доминикана</option>
+                        <option value="Мальдивы">Мальдивы</option>
+                        <option value="Танзания">Танзания</option>
+                        <option value="Шри-Ланка">Шри-Ланка</option>
+                        <option value="Индия">Индия</option>-->
                     </select>
                     <select class="select-spec" id="price_sort">
                         <option style="display: none;" value="price-default" disabled selected>цена(по умолчанию)</option>

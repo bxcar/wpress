@@ -7,9 +7,9 @@
  * @package Sydney
  */
 ?>
-<p class="prices-info">Все сборы уже включены в стоимость! По некоторым направлениям необходимо
-    открытие визы. Стоимость указана
-    на одного при двухместном размещении. Цены реальные, но места кончаются</p>
+<p class="prices-info">Стоимость указана
+    на одного при двухместном размещении. Все сборы уже включены в стоимость! По некоторым направлениям необходимо
+    открытие визы. Цены реальные, но места заканчиваются</p>
 <p class="get-offers-button"><a class="btn1 modal-link product-link" href="/wpress/спецпредложения/"
                                 data-order="Получить все предложения">Получить все предложения</a></p>
 <!--<section class="request">
@@ -122,7 +122,7 @@
 
                 <p class="team-year">12 лет в туризме</p>
 
-                <a href="#" class="popmake-129 modal-link product-link img-link"
+                <a href="#" class="popmake-599 modal-link product-link img-link"
                    data-order="Проверьте нас (Владимир)"
                    data-img="http://www.makintour.com/uploads/Desyatnik.JPG">Задайте мне вопрос</a>
             </div>
@@ -139,7 +139,7 @@
 
                 <p class="team-year">6 лет в туризме</p>
 
-                <a href="#" class="popmake-129 modal-link product-link img-link"
+                <a href="#" class="popmake-597 modal-link product-link img-link"
                    data-order="Проверьте нас (Юлия)"
                    data-img="http://www.makintour.com/uploads/Chorna.jpg">Задайте мне вопрос</a>
             </div>
@@ -274,7 +274,7 @@
     <div class="grid foot">
         <p class="f-text1 box">ООО «ХОРОШЕЕ АГЕНТСТВО» <br/>
             ЕГРПОУ: 39818659 <br/>
-            <a class="popmake-515" href="#">р/счет: 26008053135083</a><br/>
+            <a class="popmake-515" href="#">Платежная информация</a><br/>
             моб. +38 098 11 69 555
         </p>
 

@@ -352,3 +352,5 @@ function sydney_recommend_plugin() {
     tgmpa( $plugins);
 
 }
+
+ini_set('memory_limit', '512M'); 
